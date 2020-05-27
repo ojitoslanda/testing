@@ -1,12 +1,12 @@
 
 
 <ul>
-  <li>
-    <strong>  Ver todos los commit  </strong> 
+
+    <strong>  ➤ Ver todos los commit  </strong> 
     
          git log  
        
-  </li>
+
 </ul>
 
 
