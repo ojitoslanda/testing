@@ -26,3 +26,11 @@
                       
            Escribimos en el terminal 
             bash offline/git-dev.sh (la ruta depende de la carpeta donde fue creada el archivo)
+            
+ <strong>  ➤ Subir cambios de mis compañeros </strong> 
+
+            git pull origin master -r    
+            git pull
+            
+   <strong>  ➤ Ver todas las ramas </strong> 
+           git branch 
