@@ -32,6 +32,15 @@
             git pull origin master -r    
             git pull
             
-   <strong>  ➤ Ver todas las ramas </strong> 
+<strong>  ➤ Ver todas las ramas </strong> 
    
             git branch 
+            
+<strong>  ➤ merge es para pasar los cambios de una rama a otra </strong> 
+   
+            git merge "turama"
+            
+<strong>  ➤ Cambiar de Rama </strong> 
+   
+            git checkout master
+
