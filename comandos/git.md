@@ -33,4 +33,5 @@
             git pull
             
    <strong>  ➤ Ver todas las ramas </strong> 
-           git branch 
+   
+            git branch 
