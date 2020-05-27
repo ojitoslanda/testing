@@ -1,3 +1,3 @@
 
-<p> Ver todos los commit </p> ➤  <strong>git log</strong>  
+<strong> Ver todos los commit </strong>  ➤  git log  
 
