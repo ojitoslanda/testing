@@ -1,6 +1,4 @@
 <strong>  ➤ Ver todos los commit  </strong> 
-    
-         git log  
+           
+           git log  
 
-
-<p></p>
