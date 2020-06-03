@@ -1,3 +1,20 @@
+<strong>  ➤ Instalar git en Linux  </strong> 
+
+Configurando Git por primera vez
+Tu Identidad
+Lo primero que deberás hacer cuando instales Git es establecer tu nombre de usuario y dirección de correo electrónico. Esto es importante porque los "commits" de Git usan esta información, y es introducida de manera inmutable en los commits que envías:
+
+        $ git config --global user.name "John Doe"
+        $ git config --global user.email johndoe@example.com
+        
+Tu Editor
+Ahora que tu identidad está configurada, puedes elegir el editor de texto por defecto que se utilizará cuando Git necesite que introduzcas un mensaje. Si no indicas nada, Git usará el editor por defecto de tu sistema, que generalmente es Vim. Si quieres usar otro editor de texto como Emacs, puedes hacer lo siguiente:
+
+        $ git config --global core.editor emacs
+
+
+<hr/>
+
 <strong>  ➤ Empezar un proyecto nuevo con git  </strong> 
 
            git init
