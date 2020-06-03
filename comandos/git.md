@@ -1,5 +1,20 @@
 <strong>  ➤ Instalar git en Linux  </strong> 
 
+Instalación en Linux
+Si quieres instalar Git en Linux a través de un instalador binario, en general puedes hacerlo mediante la herramienta básica de administración de paquetes que trae tu distribución. Si estás en Fedora por ejemplo, puedes usar yum
+
+        $ yum install git
+Si estás en una distribución basada en Debian como Ubuntu, puedes usar apt-get:
+
+        $ apt-get install git
+
+
+Si alguna vez necesitas ayuda usando Git, existen tres formas de ver la página del manual (manpage) para cualquier comando de Git:
+
+        $ git help <verb>
+        $ git <verb> --help
+        $ man git-<verb>
+
 Configurando Git por primera vez
 Tu Identidad
 Lo primero que deberás hacer cuando instales Git es establecer tu nombre de usuario y dirección de correo electrónico. Esto es importante porque los "commits" de Git usan esta información, y es introducida de manera inmutable en los commits que envías:
@@ -16,6 +31,14 @@ Comprobando tu Configuración
 Si quieres comprobar tu configuración, puedes usar el comando git config --list para mostrar todas las propiedades que Git ha configurado:
 
          $ git config --list
+         
+         
+También puedes comprobar el valor que Git utilizará para una clave específica ejecutando git config <key>:
+        
+        $ git config user.name
+        John Doe         
+         
+         
 <hr/>
 
 <strong>  ➤ Empezar un proyecto nuevo con git  </strong> 
