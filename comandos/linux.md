@@ -32,6 +32,7 @@ mkdir ssl -> nose xd
 `clear`         | Limpiar pantalla
 `who`           | Mostrar los usuarios que han iniciado session
 `whoami`        | Mostrar el usuario actual
+`pwd`           | Ver que directorio estamos
 
 
 ```sh
