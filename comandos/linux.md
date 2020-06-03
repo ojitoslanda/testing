@@ -52,6 +52,11 @@ mkdir ssl -> nose xd
 
 ```sh
 # Instalando
+    
+   sudo apt-get update        //actualice el repositorio de paquetes disponibles para instalar.
+   sudo apt-get install git
+    
+    
    su root
    apt-get install apache2
    apt-get install mariadb-client mariadb-server
