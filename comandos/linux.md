@@ -16,7 +16,7 @@ mkdir ssl -> nose xd
 
 
 | Comando | Descripción |
-| - | - |
+| - | 
 `ls -l o dir ` | Listar directorio actual
 `cp` | Copiar Archivos
 `mkdir` | Crear directorios
