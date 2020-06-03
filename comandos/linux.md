@@ -22,11 +22,12 @@ mkdir ssl -> nose xd
 `mkdir`         | Crear directorios
 `rmdir`         | borrar directorios vacios
 `rm -r`         | borrar directorios 
+`more filename`  | ver o mostrar el archivo
 `mv `           | Mover archivos y carpetas
 `exit `         | Salir de una sesion en terminal
 `cat namefile`  | Leer o mostrar arcivos
 `su  o su root` | Iniciar sesion como root
-`sudo`          | ejecutar comandos directamente
+`sudo`          | ejecutar comandos directamente como root
 `sudo rm -r`    | Eliminar un archivo
 `clear`         | Limpiar pantalla
 `who`           | Mostrar los usuarios que han iniciado session
