@@ -38,7 +38,10 @@ También puedes comprobar el valor que Git utilizará para una clave específica
         $ git config user.name
         John Doe         
          
-         
+ Version de GIT
+  
+        git --version
+  
 <hr/>
 
 <strong>  ➤ Empezar un proyecto nuevo con git  </strong> 
