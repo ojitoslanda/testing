@@ -31,6 +31,6 @@ mkdir ssl -> nose xd
 
 | Comando | Descripción |
 | - | - |
-`npm run dev` | Ejecuta el servidor en modo desarrollo
-`npm start` | Ejecuta el servidor en modo producción
+`ls` | Ejecuta el servidor en modo desarrollo
+`cp` | Copiar Archivos
 
