@@ -46,3 +46,49 @@ mkdir ssl -> nose xd
   cp archivo.txt carpeta/archivo2.text     - Ejemplo 1  copiando y cambiando de nombre  en esa carpeta
   cp archivo.txt carpeta/     - Ejemplo 2  copiando en esa carpeta
 ```
+
+
+
+```sh
+# Instalando
+   su root
+   apt-get install apache2
+   apt-get install mariadb-client mariadb-server
+   apt-get install php php-mysql
+```
+
+
+
+
+
+
+```sh
+# `Sistema de Permisos para directorios y archivos
+    
+    r (read) 4
+    w (write) 2
+    x (execute) 1
+    
+    rwx = propietario = u
+    rwx = grupo  = g
+    rwx = otros = o
+    
+    
+    //touch archivo.txt   El comando touch de Linux se usa principalmente para crear archivos vacíos 
+    
+    ls -l
+    
+    chmod u+rwx archivo.txt
+    o 
+    chmod u=rwx archivo.txt
+    
+    
+    
+    //Cambiar el propietario del archivo (El que puede cambiar solo puede hacer el root)
+    
+    chown juan archivo.text
+    ls -l
+    chmod gou+rwx archivo.text
+    
+    
+```
