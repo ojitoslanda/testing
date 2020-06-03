@@ -12,7 +12,10 @@ Ahora que tu identidad está configurada, puedes elegir el editor de texto por d
 
         $ git config --global core.editor emacs
 
+Comprobando tu Configuración
+Si quieres comprobar tu configuración, puedes usar el comando git config --list para mostrar todas las propiedades que Git ha configurado:
 
+         $ git config --list
 <hr/>
 
 <strong>  ➤ Empezar un proyecto nuevo con git  </strong> 
