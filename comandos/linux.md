@@ -15,11 +15,8 @@ sudo dpkg -i "nombre"
 
 sudo aptitude install putty
 
-cat -> leer o mostrar arcivos
 
-sl -> listado de carpetas
 
-dir -> listado de archivos
 
 mkdir ssl -> nose xd
 
@@ -31,6 +28,29 @@ mkdir ssl -> nose xd
 
 | Comando | Descripción |
 | - | - |
-`ls` | Ejecuta el servidor en modo desarrollo
+`ls -l o dir ` | Listar directorio actual
 `cp` | Copiar Archivos
+`mkdir` | Crear directorios
+`mv` | Mover archivos y carpetas
+`exit` | Salir de una sesion en terminal
+`cat` | Leer o mostrar arcivos
+`su` | Iniciar sesion como root
+`sudo` | ejecutar comandos directamente
+`sudo rm -r`  | Eliminar un archivo
 
+
+
+
+
+```sh
+# Ejemplo del comando mv
+  mv archivo.txt carpeta/     - Ejemplo 1
+  mv archivo.txt ..           - Ejemplo 2
+```
+
+
+```sh
+# Ejemplo del comando cp
+  cp archivo.txt carpeta/archivo2.text     - Ejemplo 1  copiando y cambiando de nombre  en esa carpeta
+  cp archivo.txt carpeta/     - Ejemplo 2  copiando en esa carpeta
+```
