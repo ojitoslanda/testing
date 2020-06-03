@@ -1,3 +1,7 @@
+<strong>  ➤ Empezar un proyecto nuevo con git  </strong> 
+
+           git init
+           
 <strong>  ➤ Ver todos los commit  </strong> 
            
            git log  
@@ -27,10 +31,11 @@
            Escribimos en el terminal 
             bash offline/git-dev.sh (la ruta depende de la carpeta donde fue creada el archivo)
             
- <strong>  ➤ Subir cambios de mis compañeros </strong> 
+ <strong>  ➤ Subir cambios o traer los cambios de mis compañeros de trabajo </strong> 
 
             git pull origin master -r    
             git pull
+             git pull origin larama
             
 <strong>  ➤ Ver todas las ramas </strong> 
    
