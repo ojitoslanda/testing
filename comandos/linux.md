@@ -16,6 +16,9 @@
    
    
    //instalar archivos .deb
+   sudo chmod 777 filename.deb
+   sudo ./namefile.file
+   
    
    sudo dpkg -i nombredelarchivo.deb
    
