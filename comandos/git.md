@@ -44,7 +44,7 @@ También puedes comprobar el valor que Git utilizará para una clave específica
   
 <hr/>
 
-<strong>  ➤ Empezar un proyecto nuevo con git  </strong> 
+<strong>  ➤ Empezar o para inicializar un proyecto nuevo con git  </strong> 
 
            git init
            
