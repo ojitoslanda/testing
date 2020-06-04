@@ -80,7 +80,20 @@ git commit o git commit -m "Mensaje"                   # Guardar los cambios
       # Ejemplo 
       # Si la carpeta se llama "test" , pongamos dentro del archivo de gitignore ->     test
 ``` 
+ __<span style="color: green;">➤ Creamos una rama  o version alternativa    </span>__    
+```sh
+# COMANDOS 
 
+# dev es el nombre de rama o version alternativa    
+      git branch dev      
+# Ver si he creado correctamente    
+      git branch  # Si me aparece dev es porque si se creo correctamente
+# Ahora si yo quiero usar esa rama o version alternativa , ya que actualmente estoy con master ingreso este comando: 
+      git checkout dev 
+      git branch  # Si me aparece dev es porque si se creo correctamente
+      
+# Eso seria todo amiguitos xd      
+``` 
 
 <strong>  ➤ Llaves SSL </strong> 
 
