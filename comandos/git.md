@@ -60,7 +60,7 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 `git diff`  | Ver las diferencias hechas en los archivos
 
      
- __<span style="color: green;">* Guardamos en Git  </span>__    
+ __<span style="color: green;">➤ Guardamos en Git  </span>__    
 ```sh
 # COMANDOS 
 # Si esta color verder  es por que ya esta en mi entorno de trabajo
