@@ -1,10 +1,25 @@
 ```sh
 # Desinstalar programa desde la Terminal
-   sudo apt-get remove [nombre del programa]
+   sudo apt-get remove [nombre del programa] 
+```
+```sh
+# Instalando
+    
+   sudo apt-get update        //actualice el repositorio de paquetes disponibles para instalar.
+   sudo apt-get install git
+    
+    
+   su root
+   apt-get install apache2
+   apt-get install mariadb-client mariadb-server
+   apt-get install php php-mysql
    
+   
+   //instalar archivos .deb
+   
+   sudo dpkg -i nombredelarchivo.deb
    
 ```
-
 
 
 
@@ -56,25 +71,6 @@ mkdir ssl -> nose xd
   cp archivo.txt carpeta/archivo2.text     - Ejemplo 1  copiando y cambiando de nombre  en esa carpeta
   cp archivo.txt carpeta/     - Ejemplo 2  copiando en esa carpeta
 ```
-
-
-
-```sh
-# Instalando
-    
-   sudo apt-get update        //actualice el repositorio de paquetes disponibles para instalar.
-   sudo apt-get install git
-    
-    
-   su root
-   apt-get install apache2
-   apt-get install mariadb-client mariadb-server
-   apt-get install php php-mysql
-```
-
-
-
-
 
 
 ```sh
