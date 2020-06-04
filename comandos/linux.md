@@ -21,7 +21,11 @@
    
 ```
 
-
+```sh
+# Instalando las dependencias
+    
+   sudo apt-get build-dep nombredelprograma
+```
 
 aptitude install mariadb-server
 
