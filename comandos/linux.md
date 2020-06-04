@@ -16,11 +16,12 @@
    
    
    //instalar archivos .deb
-   sudo chmod 777 filename.deb
-   sudo ./namefile.file
+   
+   sudo chmod 777 filename.bin  // 1prt dando permisos de sudo (superusuario para instalar 
+   sudo ./namefile.bin         // 2prt  listo para instalar    
    
    
-   sudo dpkg -i nombredelarchivo.deb
+   sudo dpkg -i nombredelarchivo.deb  //otra manera para instalar
    
 ```
 
