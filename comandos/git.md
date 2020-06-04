@@ -43,8 +43,9 @@ También puedes comprobar el valor que Git utilizará para una clave específica
         git --version
   
 <hr/>
-## Comandos Básicos de Git
 
+
+## Comandos Básicos de Git
 
 | Comando | Descripción |
 | - | - |
