@@ -75,7 +75,21 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 # Puedes usar este `git add .` , que es para agregar todo al entorno de trabajo
         git add index.html        
 # Guardar los cambios
-        git commit o git commit -m "Mensaje"                   
+        git commit o git commit -m "Mensaje"    
+        
+        
+        
+ 
+ #######################
+  # Esto es opcional o un ejemplo, porque cuando creas un repositorio de github ahi te mostrara ese codigo
+  
+  
+ # …or create a new repository on the command line 
+ # esto sirve para mandar y tambien crear tus archivos local a github directo 
+
+  git remote add origin https://github.com/ojitoslanda/proyecto.git
+  git push -u origin master
+               
 ```    
 
  __<span style="color: green;">➤ Creamos un archivo .gitignore  </span>__    
