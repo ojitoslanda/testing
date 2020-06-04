@@ -66,19 +66,25 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 # Si esta color verder  es por que ya esta en mi entorno de trabajo
 # Si esta rojo es porque todavia no guardamos en el entorno de trabajo
 
-git status                                             # Ver el estado de los archivos
-git diff                                               # Es para ver los las diferencias de los archivos
-git add index.html                                     # Agregamos los nuevos cambios, dependendiendo el archivo 
-git commit o git commit -m "Mensaje"                   # Guardar los cambios
-
+# Ver el estado de los archivos
+        git status                           
+# Es para ver los las diferencias de los archivos
+        git diff                                         
+# Agregamos los nuevos cambios, dependendiendo el archivo 
+# Puedes usar este `git add index.html ` , que es para agregar uno por uno  
+# Puedes usar este `git add . ` , que es para agregar todo al entorno de trabajo
+        git add index.html        
+# Guardar los cambios
+        git commit o git commit -m "Mensaje"                   
 ```    
+
  __<span style="color: green;">➤ Creamos un archivo .gitignore  </span>__    
 ```sh
 # COMANDOS 
    
-      # creamos un archivo .gitignore dentro escribimos, las carpetas o archivos que queremos ignorar
+      # creamos un archivo `.gitignore`  dentro escribimos, las carpetas o archivos que queremos ignorar
       # Ejemplo 
-      # Si la carpeta se llama "test" , pongamos dentro del archivo de gitignore ->     test
+      # Si la carpeta se llama `test`, pongamos dentro del archivo de gitignore ->     test
 ``` 
  __<span style="color: green;">➤ Creamos una rama  o version alternativa    </span>__    
 ```sh
