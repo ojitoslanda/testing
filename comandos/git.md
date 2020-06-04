@@ -51,14 +51,20 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 | - | - |
 `git init`  | Empezar o para inicializar un proyecto nuevo con git
 `git add <filename> `  | Para empezar agregar un archivo al staging area
+`git merge tu_rama `  | Ver el estado de nuestro archivos
 `git log`  | Ver todos los commit que hemos creados
 `git branch`  | Ver todas las ramas
 `git merge tu_rama `  | Cambiar de Rama 
 `git checkout tu_rama`  | Ver todas las ramas
+`git checkout -- filename.html `  | Invertir los cambios de los archivos
 
 
      
-     
+ __<span style="color: green;">* asdasdsadsadsad  </span>__    
+```sh
+# Comando asdasdasd
+asdasdasdaaasdasdadasdadad
+```    
      
 <strong>  ➤ Llaves SSL </strong> 
 
