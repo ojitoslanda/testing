@@ -53,10 +53,10 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 `git add <filename> `  | Para empezar agregar un archivo al staging area
 `git merge tu_rama `  | Ver el estado de nuestro archivos
 `git log`  | Ver todos los commit que hemos creados
-`git branch`  | Ver todas las ramas
-`git merge tu_rama `  | Cambiar de Rama 
-`git checkout tu_rama`  | Ver todas las ramas
-`git checkout -- filename.html `  | Invertir los cambios de los archivos
+`git branch`  | Ver todas las Ramas o Version alternativa
+`git merge tu_rama `  | 
+`git checkout tu_rama`  | Cambiar de Rama o Version alternativa 
+`git checkout -- filename.html `  | Invertir , Ccambiar el orden o volver  los cambios de los archivos
 `git diff`  | Ver las diferencias hechas en los archivos
 
      
@@ -130,5 +130,5 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 
             git pull origin master -r    
             git pull
-             git pull origin larama
+            git pull origin larama
 
