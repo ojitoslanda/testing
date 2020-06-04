@@ -72,7 +72,16 @@ git add index.html      # Agregamos los nuevos cambios, dependendiendo el archiv
 git commit              # Guardar los cambios
 
 ```    
-     
+ __<span style="color: green;">➤ Creamos un archivo .gitignore  </span>__    
+```sh
+# COMANDOS 
+   
+      # creamos un archivo .gitignore dentro escribimos, las carpetas o archivos que queremos ignorar
+      # Ejemplo 
+      # Si la carpeta se llama "test" , pongamos dentro del archivo de gitignore ->     test
+``` 
+
+
 <strong>  ➤ Llaves SSL </strong> 
 
            eval "$(ssh-agent -s)"
