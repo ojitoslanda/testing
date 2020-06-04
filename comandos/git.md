@@ -71,8 +71,8 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 # Es para ver los las diferencias de los archivos
         git diff                                         
 # Agregamos los nuevos cambios, dependendiendo el archivo 
-# Puedes usar este `git add index.html ` , que es para agregar uno por uno  
-# Puedes usar este `git add . ` , que es para agregar todo al entorno de trabajo
+# Puedes usar este `git add index.html` , que es para agregar uno por uno  
+# Puedes usar este `git add .` , que es para agregar todo al entorno de trabajo
         git add index.html        
 # Guardar los cambios
         git commit o git commit -m "Mensaje"                   
