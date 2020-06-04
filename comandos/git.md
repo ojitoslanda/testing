@@ -62,14 +62,14 @@ También puedes comprobar el valor que Git utilizará para una clave específica
      
  __<span style="color: green;">* Guardamos en Git  </span>__    
 ```sh
-# Comando 
-//Si esta color verder  es por que ya esta en mi entorno de trabajo
-//Si esta rojo es porque todavia no guardamos en el entorno de trabajo
+# COMANDOS 
+# Si esta color verder  es por que ya esta en mi entorno de trabajo
+# Si esta rojo es porque todavia no guardamos en el entorno de trabajo
 
 git status              # Ver el estado de los archivos
 git diff                # Es para ver los las diferencias de los archivos
 git add index.html      # Agregamos los nuevos cambios, dependendiendo el archivo 
-git commit              # guardar los cambios
+git commit              # Guardar los cambios
 
 ```    
      
