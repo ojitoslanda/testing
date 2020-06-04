@@ -81,14 +81,11 @@ También puedes comprobar el valor que Git utilizará para una clave específica
         
  
  #######################
-  # Esto es opcional o un ejemplo, porque cuando creas un repositorio de github ahi te mostrara ese codigo
-  
-  
+ # Esto es opcional o un ejemplo, porque cuando creas un repositorio de github ahi te mostrara ese codigo
  # …or create a new repository on the command line 
  # esto sirve para mandar y tambien crear tus archivos local a github directo 
-
-  git remote add origin https://github.com/ojitoslanda/proyecto.git
-  git push -u origin master
+          git remote add origin https://github.com/ojitoslanda/proyecto.git
+          git push -u origin master
                
 ```    
 
