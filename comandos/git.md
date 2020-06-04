@@ -57,7 +57,7 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 `git merge tu_rama `  | Cambiar de Rama 
 `git checkout tu_rama`  | Ver todas las ramas
 `git checkout -- filename.html `  | Invertir los cambios de los archivos
-
+`git diff`  | Ver las diferencias hechas en los archivos
 
      
  __<span style="color: green;">* asdasdsadsadsad  </span>__    
