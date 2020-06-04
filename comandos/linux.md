@@ -1,6 +1,6 @@
 ```sh
 # Desinstalar programa desde la Terminal
-   sudo apt-get --purge remove [nombre del programa]
+   sudo apt-get remove [nombre del programa]
    
    
 ```
