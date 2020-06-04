@@ -90,7 +90,7 @@ git commit o git commit -m "Mensaje"                   # Guardar los cambios
       git branch  # Si me aparece dev es porque si se creo correctamente
 # Ahora si yo quiero usar esa rama o version alternativa , ya que actualmente estoy con master ingreso este comando: 
       git checkout dev 
-      git branch  # Si me aparece dev es porque si estoy en la rama  que deseó
+      git branch  # Si me aparece dev es porque si estoy en la rama que requiero
       
 # Eso seria todo amiguitos xd      
 ``` 
