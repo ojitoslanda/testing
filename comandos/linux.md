@@ -1,3 +1,12 @@
+```sh
+# Desinstalar programa desde la Terminal
+   sudo apt-get --purge remove [nombre del programa]
+   
+   
+```
+
+
+
 
 aptitude install mariadb-server
 
