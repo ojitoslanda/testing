@@ -43,15 +43,22 @@ También puedes comprobar el valor que Git utilizará para una clave específica
         git --version
   
 <hr/>
+## Comandos Básicos de Git
 
-<strong>  ➤ Empezar o para inicializar un proyecto nuevo con git  </strong> 
 
-           git init
-           
-<strong>  ➤ Ver todos los commit  </strong> 
-           
-           git log  
-           
+| Comando | Descripción |
+| - | - |
+`git init`  | Empezar o para inicializar un proyecto nuevo con git
+`git add <filename> `  | Para empezar agregar un archivo al staging area
+`git log`  | Ver todos los commit
+`git branch`  | Ver todas las ramas
+`git merge tu_rama `  | Cambiar de Rama 
+`git checkout tu_rama`  | Ver todas las ramas
+
+
+     
+     
+     
 <strong>  ➤ Llaves SSL </strong> 
 
            eval "$(ssh-agent -s)"
@@ -82,16 +89,4 @@ También puedes comprobar el valor que Git utilizará para una clave específica
             git pull origin master -r    
             git pull
              git pull origin larama
-            
-<strong>  ➤ Ver todas las ramas </strong> 
-   
-            git branch 
-            
-<strong>  ➤ merge es para pasar los cambios de una rama a otra </strong> 
-   
-            git merge "turama"
-            
-<strong>  ➤ Cambiar de Rama </strong> 
-   
-            git checkout master
 
