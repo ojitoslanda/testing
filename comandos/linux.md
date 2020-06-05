@@ -2,6 +2,11 @@
 # Desinstalar programa desde la Terminal
    sudo apt-get remove [nombre del programa] 
 ```
+
+```sh
+# Desinstalar php , To remove php 7, you can try:
+   sudo apt-get purge php7.0-common
+```
 ```sh
 # Instalando
     
