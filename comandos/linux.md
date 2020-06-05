@@ -18,7 +18,9 @@
    sudo apt-get remove mysql-workbench
    
 # Desinstalar mariadb-server-10.0
-Para desinstalar unicamente mariadb-server-10.0 en Debian 9 (Stretch) ejecutar los siguientes comandos:
+# Usted también puede eliminar la información de configuración del mariadb-server-10.0 en Debian Stretch ejecutar lo 
+# siguiente comando:
+sudo apt-get purge mariadb-server-10.0
 ```
 
 
