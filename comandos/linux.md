@@ -7,6 +7,8 @@
 # Desinstalar programa desde la Terminal
    sudo apt-get remove [nombre del programa] 
    
+   sudo apt-get remove nginx
+
 # Desinstalar mysql-workbench 
 #  Para desinstalar unicamente mysql-workbench en Debian  ejecutar los siguientes comandos:
    sudo apt-get remove mysql-workbench
