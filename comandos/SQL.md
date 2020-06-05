@@ -4,6 +4,10 @@
       # Ejemplo 
       # Si la carpeta se llama `test`, pongamos dentro del archivo de gitignore ->     test
 ``` 
+<hr/>
 
+
+MODELO E-R
+------------------
 
 ![alt text](https://i.ytimg.com/vi/5dYAp88w6Uw/maxresdefault.jpg)
