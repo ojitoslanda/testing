@@ -51,7 +51,9 @@ sudo apt install mysql-server
 sudo mysql_secure_installation
 sudo apt install php-fpm php-mysql
 sudo nano /etc/nginx/sites-available/default
-erver {
+
+
+server {
         listen 80;
         root /var/www/html;
         index index.php index.html index.htm index.nginx-debian.html;
@@ -76,6 +78,9 @@ sudo service nginx restart
 sudo nano /var/www/html/info.php
 <?php
 phpinfo();
+?>
+
+
 ```
 
 
