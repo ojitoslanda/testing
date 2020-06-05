@@ -22,23 +22,30 @@
     sudo apt-get remove --purge mysql-server mysql-common
     sudo rm -rf /etc/mysql/ /var/lib/mysql
     sudo apt-get purge mysql*
+
  
 #Desistalar NGNIX
    sudo apt-get remove nginx nginx-common  # Elimina todos, pero los archivos de configuración.
    sudo apt-get purge nginx nginx-common  # Quita todo.
-   sudo apt-get autoremove   # Después de usar cualquiera de los comandos anteriores, el uso de este en orden para eliminar las dependencias utilizadas por nginx que no son necesarios.
+   sudo apt-get autoremove   # Después de usar cualquiera de los comandos anteriores, el uso de este en orden para eliminar 
+   las dependencias utilizadas por nginx que no son necesarios.
+   
+   sudo apt-get autoremove
+   sudo apt-get autoclean
 
 # Desinstalar php , To remove php 7, you can try:
    sudo apt-get purge php*
    sudo apt-get purge php7.0-common
 
-#Luego de todo hacer eso 
-   sudo apt-get autoremove
-   sudo apt-get autoclean
 ```
 
 
 ```sh
+#Instalando LEMP (Linux - Nginx - MariaDB / Mysql - PHP )
+
+sudo apt update
+sudo apt install nginx
+
 
 ```
 
