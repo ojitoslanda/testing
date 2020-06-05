@@ -1,8 +1,14 @@
  __<span style="color: green;">➤ Instalando  </span>__    
 ```sh
-      # creamos un archivo `.gitignore`  dentro escribimos, las carpetas o archivos que queremos ignorar
-      # Ejemplo 
-      # Si la carpeta se llama `test`, pongamos dentro del archivo de gitignore ->     test
+
+# conectamos a mysql
+mysql -u root -p 
+
+#Creamos un usuario
+create user root identified by ''
+grant all privileges on nametable.* to root
+flush privileges
+
 ``` 
 <hr/>
 
