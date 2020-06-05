@@ -9,6 +9,7 @@
    
    
 # Desinstalar Apache
+    sudo service apache2 stop
    sudo apt-get remove apache2
    sudo apt-get autoremove apache2
    sudo apt-get purge apache2
@@ -28,6 +29,7 @@
    sudo apt-get autoremove --purge mysql-workbench
    
 # Desinstalar mariadb-server-10.0  /  Mysql
+   sudo service mysql stop
    sudo apt-get remove mariadb-server
    sudo apt-get autoremove mariadb-server
    sudo apt-get purge mariadb-server
