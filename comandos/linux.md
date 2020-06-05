@@ -19,8 +19,15 @@
  
  
  
- 
- 
+#Desistalar NGNIX
+sudo apt-get remove nginx nginx-common  # Elimina todos, pero los archivos de configuración.
+sudo apt-get purge nginx nginx-common  # Quita todo.
+sudo apt-get autoremove   # Después de usar cualquiera de los comandos anteriores, el uso de este en orden para eliminar las dependencias utilizadas por nginx que no son necesarios.
+
+
+
+
+
 #Luego de todo hacer eso 
 
 sudo apt-get autoremove
