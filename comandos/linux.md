@@ -16,26 +16,31 @@
 # Desinstalar mysql-workbench 
 #  Para desinstalar unicamente mysql-workbench en Debian  ejecutar los siguientes comandos:
    sudo apt-get remove mysql-workbench
+   sudo apt-get autoremove mysql-workbench
+   sudo apt-get purge mysql-workbench
+   sudo apt-get autoremove --purge mysql-workbench
    
 # Desinstalar mariadb-server-10.0  /  Mysql
-    sudo systemctl stop mysql
-    sudo apt-get remove --purge mysql-server mysql-common
-    sudo rm -rf /etc/mysql/ /var/lib/mysql
-    sudo apt-get purge mysql*
-
+   sudo apt-get remove mariadb-server
+   sudo apt-get autoremove mariadb-server
+   sudo apt-get purge mariadb-server
+   sudo apt-get autoremove --purge mariadb-server
+   
 #Desistalar NGNIX
    sudo apt-get remove nginx nginx-common  # Elimina todos, pero los archivos de configuración.
    sudo apt-get purge nginx nginx-common  # Quita todo.
    sudo apt-get autoremove   # Después de usar cualquiera de los comandos anteriores, el uso de este en orden para eliminar 
    las dependencias utilizadas por nginx que no son necesarios.
-   
    sudo apt-get autoremove
    sudo apt-get autoclean
 
 # Desinstalar php , To remove php 7, you can try:
-   sudo apt-get purge php*
-   sudo apt-get purge php7.0-common
-
+  sudo apt-get remove php-fpm
+  sudo apt-get autoremove php-fpm
+  sudo apt-get purge php-fpm
+  sudo apt-get autoremove --purge php-fpm
+  sudo apt-get autoremove
+   sudo apt-get autoclean
 ```
 
 
