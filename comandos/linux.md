@@ -27,9 +27,8 @@
    sudo apt-get purge php7.0-common
 
 #Luego de todo hacer eso 
-
-sudo apt-get autoremove
-sudo apt-get autoclean
+   sudo apt-get autoremove
+   sudo apt-get autoclean
 ```
 
 
