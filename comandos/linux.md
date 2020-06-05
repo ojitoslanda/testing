@@ -145,3 +145,22 @@ mkdir ssl -> nose xd
     
     
 ```
+
+
+
+
+
+
+
+
+eliminar - los Paquetes instalados se quita (NO incluye los archivos de configuración)
+
+purga - Purga es idéntica a eliminar, excepto en que los paquetes que se quitan y se purga. Purgar lo que significa que los archivos de configuración también se eliminarán.
+
+Por supuesto, esto no se aplica a los paquetes que mantenga la configuración de los archivos dentro de la carpeta principal del usuario (por ejemplo: /home/SexyNoJutsuUser), estos archivos no serán tocados ( ¿por Qué "Purga" no quita todo lo relacionado con una aplicación? )
+
+Así, por ejemplo, si se va a eliminar de Chrome, Firefox, XBMC o cualquier otro que contiene algunos archivos de configuración dentro de su /home carpeta, esta los archivos de la estancia allí.
+
+Por otro lado, si usted fuera a instalar apache, squid, mysql o cualquier otro servicio similar que guardar sus archivos en /etc, esta configuración se eliminarán los archivos si utilizas purge.
+
+Fuente: https://www.enmimaquinafunciona.com/pregunta/24038/cual-es-la-diferencia-entre-apt-get-purge-y-apt-get-remove
