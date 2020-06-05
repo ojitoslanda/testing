@@ -26,13 +26,6 @@
    sudo apt-get purge mariadb-server
    sudo apt-get autoremove --purge mariadb-server
    
-#Desistalar NGNIX
-   sudo apt-get remove nginx nginx-common  # Elimina todos, pero los archivos de configuración.
-   sudo apt-get purge nginx nginx-common  # Quita todo.
-   sudo apt-get autoremove   # Después de usar cualquiera de los comandos anteriores, el uso de este en orden para eliminar 
-   las dependencias utilizadas por nginx que no son necesarios.
-   sudo apt-get autoremove
-   sudo apt-get autoclean
 
 # Desinstalar php , To remove php 7, you can try:
   sudo apt-get remove php-fpm
