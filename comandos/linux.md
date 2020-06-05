@@ -47,7 +47,7 @@
 ```sh
 #Instalando LEMP (Linux - Apache - MariaDB / Mysql - PHP )
 sudo apt update
-sudo apt install nginx
+sudo apt install apache2
 sudo apt install mariadb-client mariadb-server
 sudo apt install php php-mysql
 
