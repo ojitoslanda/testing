@@ -38,11 +38,44 @@
 
 
 ```sh
-#Instalando LEMP (Linux - Nginx - MariaDB / Mysql - PHP )
+#Instalando LEMP (Linux - Apache - MariaDB / Mysql - PHP )
 sudo apt update
 sudo apt install nginx
 sudo apt install mariadb-client mariadb-server
 sudo apt install php php-mysql
+
+#Instalando LEMP (Linux - Ngnix - MariaDB / Mysql - PHP )
+sudo apt update
+sudo apt install nginx
+sudo apt install mysql-server
+sudo mysql_secure_installation
+sudo apt install php-fpm php-mysql
+sudo nano /etc/nginx/sites-available/default
+erver {
+        listen 80;
+        root /var/www/html;
+        index index.php index.html index.htm index.nginx-debian.html;
+        server_name localhost;
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+
+        location ~ .php$ {
+                include snippets/fastcgi-php.conf;
+                fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;
+        }
+
+        location ~ /.ht {
+                deny all;
+        }
+}
+
+
+sudo service nginx restart
+sudo nano /var/www/html/info.php
+<?php
+phpinfo();
 ```
 
 
