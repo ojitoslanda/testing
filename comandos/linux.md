@@ -52,7 +52,8 @@ sudo apt update
 sudo apt install apache2
 sudo apt install mariadb-client mariadb-server
 sudo apt install php php-mysql
-systemctl status mysql  # ver si esta corriendo 
+sudo systemctl status mysql  # ver si esta corriendo mysql
+sudo service apache2 status # ver si esta corriendo apache
 sudo mysql_secure_installation # configuraciones basicas de mysql/mariadb
 
 
