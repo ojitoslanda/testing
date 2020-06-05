@@ -50,6 +50,18 @@ sudo apt update
 sudo apt install apache2
 sudo apt install mariadb-client mariadb-server
 sudo apt install php php-mysql
+systemctl status mysql  # ver si esta corriendo 
+sudo mysql_secure_installation # configuraciones basicas de mysql/mariadb
+
+
+mysql -u root -p # conectamos a mysql
+
+#Creamos un usuario
+create user root identified by ''
+grant all privileges on nametable.* to root
+flush privileges
+
+
 
 #Instalando LEMP (Linux - Ngnix - MariaDB / Mysql - PHP )
 sudo apt update
