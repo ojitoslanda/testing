@@ -12,21 +12,19 @@
    sudo apt-get remove mysql-workbench
    
 # Desinstalar mariadb-server-10.0  /  Mysql
- sudo systemctl stop mysql
- sudo apt-get remove --purge mysql-server mysql-common
- sudo rm -rf /etc/mysql/ /var/lib/mysql
- sudo apt-get purge mysql*
- 
- 
+    sudo systemctl stop mysql
+    sudo apt-get remove --purge mysql-server mysql-common
+    sudo rm -rf /etc/mysql/ /var/lib/mysql
+    sudo apt-get purge mysql*
  
 #Desistalar NGNIX
-sudo apt-get remove nginx nginx-common  # Elimina todos, pero los archivos de configuración.
-sudo apt-get purge nginx nginx-common  # Quita todo.
-sudo apt-get autoremove   # Después de usar cualquiera de los comandos anteriores, el uso de este en orden para eliminar las dependencias utilizadas por nginx que no son necesarios.
+   sudo apt-get remove nginx nginx-common  # Elimina todos, pero los archivos de configuración.
+   sudo apt-get purge nginx nginx-common  # Quita todo.
+   sudo apt-get autoremove   # Después de usar cualquiera de los comandos anteriores, el uso de este en orden para eliminar las dependencias utilizadas por nginx que no son necesarios.
 
-
-
-
+# Desinstalar php , To remove php 7, you can try:
+   sudo apt-get purge php*
+   sudo apt-get purge php7.0-common
 
 #Luego de todo hacer eso 
 
@@ -35,11 +33,8 @@ sudo apt-get autoclean
 ```
 
 
-
 ```sh
-# Desinstalar php , To remove php 7, you can try:
-   sudo apt-get purge php*
-   sudo apt-get purge php7.0-common
+
 ```
 
 
@@ -73,13 +68,9 @@ sudo apt-get autoclean
 ```
 
 aptitude install mariadb-server
-
 cd Dowloads/
 sudo dpkg -i "nombre"
-
 sudo aptitude install putty
-
-
 mkdir ssl -> nose xd
 
 
