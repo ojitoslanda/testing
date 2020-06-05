@@ -20,7 +20,7 @@
 # Desinstalar mariadb-server-10.0
 # Usted también puede eliminar la información de configuración del mariadb-server-10.0 en Debian Stretch ejecutar lo 
 # siguiente comando:
-sudo apt-get purge mariadb-server-10.0
+sudo apt-get purge mariadb-server-10.0 (dependiendo de la version)
 ```
 
 
