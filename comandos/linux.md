@@ -41,6 +41,8 @@
 # Instalando
     
    sudo apt-get update        //actualice el repositorio de paquetes disponibles para instalar.
+   sudo apt-get upgrade
+
    sudo apt-get install git
     
     
