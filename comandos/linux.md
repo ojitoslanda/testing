@@ -36,7 +36,7 @@ sudo apt-get autoclean
 ```
 
 
-``sh
+```sh
 # Instalando
     
    sudo apt-get update        //actualice el repositorio de paquetes disponibles para instalar.
