@@ -1,13 +1,37 @@
+
+```sh
+# Listar paquetes instalados
+# Para listar el total de paquetes instalados ejecutamos el siguiente comando.
+   sudo dpkg --get-selections
+```
+
+
+
 ```sh
 # Desinstalar programa desde la Terminal
    sudo apt-get remove [nombre del programa] 
 ```
 
 ```sh
+# Desinstalar mysql-workbench 
+#  Para desinstalar unicamente mysql-workbench en Debian  ejecutar los siguientes comandos:
+   sudo apt-get remove mysql-workbench
+   
+# Desinstalar mariadb-server-10.0
+Para desinstalar unicamente mariadb-server-10.0 en Debian 9 (Stretch) ejecutar los siguientes comandos:
+```
+
+
+```sh
+
+```sh
 # Desinstalar php , To remove php 7, you can try:
    sudo apt-get purge php7.0-common
 ```
 ```sh
+
+
+
 # Instalando
     
    sudo apt-get update        //actualice el repositorio de paquetes disponibles para instalar.
