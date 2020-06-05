@@ -7,6 +7,13 @@
 # Desinstalar programa desde la Terminal
    sudo apt-get remove [nombre del programa] 
    
+   
+# Desinstalar Apache
+   sudo apt-get remove apache2
+   sudo apt-get autoremove apache2
+   sudo apt-get purge apache2
+   sudo apt-get autoremove --purge apache2
+   
 # Desinstalar nginx 
    sudo apt-get remove nginx
    sudo apt-get autoremove nginx
