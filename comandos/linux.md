@@ -22,13 +22,11 @@ Para desinstalar unicamente mariadb-server-10.0 en Debian 9 (Stretch) ejecutar l
 ```
 
 
-```sh
 
 ```sh
 # Desinstalar php , To remove php 7, you can try:
    sudo apt-get purge php7.0-common
 ```
-```sh
 
 
 
