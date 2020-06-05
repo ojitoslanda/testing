@@ -7,7 +7,6 @@
 <hr/>
 
 
-MODELO E-R
+MODELO E-R (ENTIDAD-RELACION)
 ------------------
-
 ![alt text](https://i.ytimg.com/vi/5dYAp88w6Uw/maxresdefault.jpg)
