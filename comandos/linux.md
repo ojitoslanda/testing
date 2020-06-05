@@ -23,7 +23,6 @@
     sudo rm -rf /etc/mysql/ /var/lib/mysql
     sudo apt-get purge mysql*
 
- 
 #Desistalar NGNIX
    sudo apt-get remove nginx nginx-common  # Elimina todos, pero los archivos de configuración.
    sudo apt-get purge nginx nginx-common  # Quita todo.
@@ -42,20 +41,19 @@
 
 ```sh
 #Instalando LEMP (Linux - Nginx - MariaDB / Mysql - PHP )
-
 sudo apt update
 sudo apt install nginx
-
-
+sudo apt install mariadb-client mariadb-server
+sudo apt install php php-mysql
 ```
 
 
 ```sh
 # Instalando
-    
    sudo apt-get update        //actualice el repositorio de paquetes disponibles para instalar.
    sudo apt-get upgrade
-
+   
+   Sin su Root
    sudo apt-get install git
     
     
@@ -64,12 +62,12 @@ sudo apt install nginx
    apt-get install mariadb-client mariadb-server
    apt-get install php php-mysql
    
+   sudo aptitude install
+   
    
    //instalar archivos .deb
-   
    sudo chmod 777 filename.bin  // 1prt dando permisos de sudo (superusuario para instalar 
    sudo ./namefile.bin         // 2prt  listo para instalar    
-   
    
    sudo dpkg -i nombredelarchivo.deb  //otra manera para instalar
    
@@ -81,10 +79,8 @@ sudo apt install nginx
    sudo apt-get build-dep nombredelprograma
 ```
 
-aptitude install mariadb-server
-cd Dowloads/
-sudo dpkg -i "nombre"
-sudo aptitude install putty
+
+ putty
 mkdir ssl -> nose xd
 
 
