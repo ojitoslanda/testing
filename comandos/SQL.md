@@ -5,8 +5,8 @@
 mysql -u root -p 
 
 #Creamos un usuario
-create user root identified by ''
-grant all privileges on nametable.* to root
+create user nameuser identified by 'passworduser'
+grant all privileges on nametable.* to 'nameuser' with grant option
 flush privileges
 
 #Mostrar base de datos
