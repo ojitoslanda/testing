@@ -1,5 +1,23 @@
 
 ```sh
+# Instalando rar & unrar
+   sudo apt-get install rar
+   sudo apt-get install unrar
+#Si esta orden nos reportará algún tipo de problema, 
+#cosa que me sucedió a mi mismo, añadiremos al final –fix-missing quedando de esta manera:
+   sudo apt-get install unrar –fix-missing
+#Con la primera orden añadiremos los archivos uno a uno, y con la segunda incluiremos todos los archivos que estén dentro del directorio en que nos encontremos.
+#Para comprimir archivos usaremos el comando:
+   rar a nombre_archivo.rar archivos a incluir
+   rar a nombre_archivo.rar  *
+#Para descomprimir será tan sencillo como usar el comando unrar:
+unrar x nobre_del_rar.rar
+unrar x nombre_del_rar.rar ruta donde lo queramos descomprimir
+#Con la primera orden lo descomprimiremos en el directorio que nos encontramos y con la segundo le diremos el directorio en el que queremos que lo descomprima.
+```
+
+
+```sh
 # Listar paquetes instalados
 # Para listar el total de paquetes instalados ejecutamos el siguiente comando.
    sudo dpkg --get-selections
