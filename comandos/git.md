@@ -100,8 +100,9 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 ``` 
  __<span style="color: green;">➤ Creamos una rama  o version alternativa    </span>__    
 ```sh
-# COMANDOS 
-
+        #¿Qué es ramas?
+         Es una linea de tiempo en nuestro proyecto, que nos sirven para arreglar errores, 
+         experimentar, hacer grandes cambios, etc.
 # dev es el nombre de rama o version alternativa    
       git branch dev      
 # Ver si he creado correctamente    
@@ -150,7 +151,19 @@ También puedes comprobar el valor que Git utilizará para una clave específica
              #Para volver al ultimo commit que hice o volver al actual
           ->   git checkout master
           
-           
+ __<span style="color: green;">➤ Concepto Head   </span>__    
+```sh
+# Head es el commit donde nos encontramos
+
+        git log
+        
+        commit bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
+                Author: ojitoslanda <ojitoslanda@gmail.com>
+                Date:   Thu Jun 4 17:20:32 2020 -0500
+                Mi primer commit 
+                
+        
+```           
 <strong>  ➤ Llaves SSL </strong> 
 
            eval "$(ssh-agent -s)"
