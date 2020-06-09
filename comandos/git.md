@@ -113,6 +113,23 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 # Eso seria todo amiguitos xd      
 ``` 
 
+
+ __<span style="color: green;">➤ Git Reset   </span>__    
+```sh
+# Trabajar con cuidado -> mata a los commit 
+        
+   #Este Git reset más simple y que no toca nuestro "Working Area" (no se mete con nuestro codigo)
+        git reset --soft
+        
+   #Este Git Reset borra el "Staging Area" , sin tocar el "Working Area"
+        git reser --mixed
+        
+   #Este Git reset borra absolutamente todo lo que hay en el commit
+        git reset --hard
+``` 
+
+
+
 <strong>  ➤ Volver en el tiempo a tu repositorio o ver el codigo pasado </strong> 
 
           ->  git log
