@@ -8,7 +8,6 @@ Si estás en una distribución basada en Debian como Ubuntu, puedes usar apt-get
 
         $ apt-get install git
 
-
 Si alguna vez necesitas ayuda usando Git, existen tres formas de ver la página del manual (manpage) para cualquier comando de Git:
 
         $ git help <verb>
@@ -51,7 +50,6 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 | - | - |
 `git init`  | Empezar o para inicializar un proyecto nuevo con git
 `git add <filename> `  | Para empezar agregar un archivo al staging area
-`git merge tu_rama `  | Ver el estado de nuestro archivos
 `git log`  | Ver todos los commit que hemos creados
 `git branch`  | Ver todas las Ramas o Version alternativa ("master" es la rama default)
 `git merge tu_rama `  | 
@@ -81,7 +79,6 @@ También puedes comprobar el valor que Git utilizará para una clave específica
         
  
  #######################
- 
  # Esto es opcional o un ejemplo, porque cuando creas un repositorio de github ahi te mostrara ese codigo
  # …or create a new repository on the command line 
  # esto sirve para mandar y tambien crear tus archivos local a github directo 
@@ -116,6 +113,21 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 # Eso seria todo amiguitos xd      
 ``` 
 
+<strong>  ➤ Volver en el tiempo a tu repositorio o ver el codigo pasado </strong> 
+
+          ->  git log
+          
+          ->  commit bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
+                Author: ojitoslanda <ojitoslanda@gmail.com>
+                Date:   Thu Jun 4 17:20:32 2020 -0500
+                Mi primer commit 
+
+         ->   git checkout bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
+          
+             #Para volver al ultimo commit que hice o volver al actual
+          ->   git checkout mater
+          
+           
 <strong>  ➤ Llaves SSL </strong> 
 
            eval "$(ssh-agent -s)"
@@ -138,7 +150,7 @@ También puedes comprobar el valor que Git utilizará para una clave específica
            git commit -m "Cambios al $fecha"
            git push origin dev
                       
-           Escribimos en el terminal 
+       Escribimos en el terminal 
             bash offline/git-dev.sh (la ruta depende de la carpeta donde fue creada el archivo)
             
  <strong>  ➤ Subir cambios o traer los cambios de mis compañeros de trabajo </strong> 
