@@ -100,9 +100,10 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 ``` 
  __<span style="color: green;">➤ Creamos una rama  o version alternativa    </span>__    
 ```sh
-        #¿Qué es ramas?
-         Es una linea de tiempo en nuestro proyecto, que nos sirven para arreglar errores, 
-         experimentar, hacer grandes cambios, etc.
+#¿Qué es ramas?
+      Es una linea de tiempo en nuestro proyecto, que nos sirven para arreglar errores, 
+      experimentar, hacer grandes cambios, etc.
+      
 # dev es el nombre de rama o version alternativa    
       git branch dev      
 # Ver si he creado correctamente    
@@ -113,6 +114,30 @@ También puedes comprobar el valor que Git utilizará para una clave específica
       
 # Eso seria todo amiguitos xd      
 ``` 
+
+ __<span style="color: green;">➤ Borramos una rama  o version alternativa    </span>__    
+```sh
+       git branch -d nombrerama
+       
+        # Eso seria todo amiguitos xd      
+``` 
+
+
+ __<span style="color: green;">➤ Fusiones o Fusionar </span>__    
+```sh
+    # Es la creación de un nuevo commit juntando una rama con otra.
+       git checkout master #Tenemos que estar en la rama principal (master)
+       git branch       # Aseguramos que estamos en la rama master
+       git merge dev    # Fusionamos la rama "dev" para que pase todo el codigo a master
+       
+       
+     #Fast-Foward
+      Solo va a hacer la fusion, esto pasa normalmente cuando se trabaja con archivos diferetnes o lineas de codigos distintas
+     #Manual Merge
+       Antes de hacer la fusion tiene que pasar por nosotros, normalmente ocurre cuando se trabaja en los mismo archivos o lineas de codigo
+        # Eso seria todo amiguitos xd      
+``` 
+
 
 
  __<span style="color: green;">➤ Git Reset   </span>__    
