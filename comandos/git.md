@@ -52,7 +52,7 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 `git add <filename> `  | Para empezar agregar un archivo al staging area
 `git log`  | Ver todos los commit que hemos creados
 `git branch`  | Ver todas las Ramas o Version alternativa ("master" es la rama default)
-`git merge tu_rama `  | 
+`git merge tu_rama `  | Fusionamos los cambios de la rama test a rama master
 `git checkout tu_rama`  | Cambiar de Rama o Version alternativa 
 `git checkout -- filename.html `  | Invertir , Ccambiar el orden o volver  los cambios de los archivos
 `git diff`  | Ver las diferencias hechas en los archivos
