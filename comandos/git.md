@@ -148,7 +148,7 @@ También puedes comprobar el valor que Git utilizará para una clave específica
          ->   git checkout bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
           
              #Para volver al ultimo commit que hice o volver al actual
-          ->   git checkout mater
+          ->   git checkout master
           
            
 <strong>  ➤ Llaves SSL </strong> 
