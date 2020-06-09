@@ -125,22 +125,22 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 
  __<span style="color: green;">➤ Fusiones o Fusionar </span>__    
 ```sh
-    # Es la creación de un nuevo commit juntando una rama con otra.
-       git checkout master #Tenemos que estar en la rama principal (master)
-       git branch       # Aseguramos que estamos en la rama master
-       git merge dev    # Fusionamos la rama "dev" para que pase todo el codigo a master
-       
-       
-     #Fast-Foward
-      Solo va a hacer la fusion, esto pasa normalmente cuando se trabaja con archivos diferetnes o lineas de codigos distintas
-     #Manual Merge
-       Antes de hacer la fusion tiene que pasar por nosotros, normalmente ocurre cuando se trabaja en los mismo archivos o lineas de codigo
-        # Eso seria todo amiguitos xd      
+# Es la creación de un nuevo commit juntando una rama con otra.
+        git checkout master #Tenemos que estar en la rama principal (master)
+        git branch       # Aseguramos que estamos en la rama master
+        git merge dev    # Fusionamos la rama "dev" para que pase todo el codigo a master
+
+
+#Fast-Foward
+        Solo va a hacer la fusion, esto pasa normalmente cuando se trabaja con archivos diferetnes o lineas de codigos distintas
+#Manual Merge
+        Antes de hacer la fusion tiene que pasar por nosotros, normalmente ocurre cuando se trabaja en los mismo archivos o lineas de codigo
+# Eso seria todo amiguitos xd      
 ``` 
 
 
 
- __<span style="color: green;">➤ Git Reset   </span>__    
+ __<span style="color: green;">➤ Git Reset o Eliminar un commit  </span>__    
 ```sh
 # Trabajar con cuidado -> mata a los commit 
         git log
