@@ -112,6 +112,9 @@ También puedes comprobar el valor que Git utilizará para una clave específica
       git checkout dev 
       git branch  # Si me aparece dev es porque si estoy en la rama que requiero
       
+      
+#Para crear una rama y usar esa rama automaticamente
+     git checkout -b nombrerama
 # Eso seria todo amiguitos xd      
 ``` 
 
