@@ -117,7 +117,8 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 
  __<span style="color: green;">➤ Borramos una rama  o version alternativa    </span>__    
 ```sh
-       git branch -d nombrerama
+      # antes de eliminar tenemos que estar en la rama master (principal) ahi podemos eliminar la rama que deseo
+       git branch -D nombrerama
        
         # Eso seria todo amiguitos xd      
 ``` 
@@ -131,9 +132,9 @@ También puedes comprobar el valor que Git utilizará para una clave específica
         git merge dev    # Fusionamos la rama "dev" para que pase todo el codigo a master
 
 
-#Fast-Foward
+#Fast-Foward(Simple y automatico)
         Solo va a hacer la fusion, esto pasa normalmente cuando se trabaja con archivos diferetnes o lineas de codigos distintas
-#Manual Merge
+#Manual Merge(Largo y Manual) - Trabajo en equipo
         Antes de hacer la fusion tiene que pasar por nosotros, normalmente ocurre cuando se trabaja en los mismo archivos o lineas de codigo
 # Eso seria todo amiguitos xd      
 ``` 
@@ -187,7 +188,7 @@ También puedes comprobar el valor que Git utilizará para una clave específica
                 Date:   Thu Jun 4 17:20:32 2020 -0500
                 Mi primer commit 
                 
-        
+       Head -> commit bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
 ```           
 <strong>  ➤ Llaves SSL </strong> 
 
