@@ -1,4 +1,4 @@
- __<span style="color: green;">➤ Instalando  </span>__    
+ __<span style="color: green;">➤ COMANDOS  </span>__    
 ```sh
 
 # conectamos a mysql
@@ -9,9 +9,17 @@ create user nameuser identified by 'passworduser'
 grant all privileges on nametable.* to 'nameuser' with grant option
 flush privileges
 
-
-
+//DANDO PRIVILEGIOS Y CREANDO AL MISMO TIEMPO EL USUARIO
 grant all privileges on *.* to gabriel@localhost identified by 'admin' with grant option
+flush privileges
+
+# Eliminamos a un usuario
+drop user 'gabriel'@'localhost';
+
+#Otro Metodo
+SELECT user FROM mysql.user GROUP BY user;
+DELETE FROM mysql.user WHERE user = 'usuario';
+
 
 
 
