@@ -74,21 +74,24 @@ También puedes comprobar el valor que Git utilizará para una clave específica
         git add index.html        
 # Guardar los cambios
         git commit o git commit -m "Mensaje"    
-        
-        
-        
- 
- #######################
- # Esto es opcional o un ejemplo, porque cuando creas un repositorio de github ahi te mostrara ese codigo
- # …or create a new repository on the command line 
- # esto sirve para mandar y tambien crear tus archivos local a github directo 
-          git add README.md
-          git remote add origin https://github.com/ojitoslanda/proyecto.git
-          git push -u origin master
+            
+```   
+__<span style="color: green;">➤ Uso del Github con git </span>__    
+```sh
  #Clonar un repositorio
           git clone https://github.com/example/example.git
-               
-```    
+          
+
+          git remote -v                 #  Ver si esta correctamente vinculado mi proyecto con Git y Github
+          git remote remove origin      #  Desvinculamos el Git y Github (REPOSITORIOS)
+          
+  # esto sirve para mandar y tambien crear tus archivos local a github directo          
+        git remote add origin https://github.com/ojitoslanda/proyecto.git
+        git push -u origin master     # Guardamos  
+        
+   
+     
+```   
 
  __<span style="color: green;">➤ Creamos un archivo .gitignore  </span>__    
 ```sh
