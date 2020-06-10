@@ -35,8 +35,13 @@ select Host,Db,User from db;          # Consultar los usuarios y las bases de da
 show grants for pepe;                #Listar privilegios por usuario
 
 #nos permite mostrar los usuarios que tienen permisos sobre ciertas bases de datos:
-SELECT host, USER, password FROM mysql.user;
+SELECT host, user, password FROM mysql.user;
 SELECT u.User,Db FROM mysql.user u,mysql.db d WHERE u.User = d.user;
+
+
+
+SELECT USER(),CURRENT_USER();
+
 ``` 
 <hr/>
 
