@@ -1,6 +1,6 @@
  __<span style="color: green;">➤ COMANDOS  </span>__    
 ```sh
-
+https://stackoverrun.com/es/q/10052713 -> Flush privileges
 # conectamos a mysql
 mysql -u root -p 
 
