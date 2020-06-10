@@ -3,6 +3,7 @@
 https://stackoverrun.com/es/q/10052713 -> Flush privileges
 # conectamos a mysql
 mysql -u root -p 
+mysql -u admin -p
 
 #Creamos un usuario
 create user nameuser identified by 'passworduser'
