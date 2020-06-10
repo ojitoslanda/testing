@@ -9,7 +9,7 @@ create user nameuser identified by 'passworduser'
 grant all privileges on nametable.* to 'nameuser' with grant option
 flush privileges
 
-//DANDO PRIVILEGIOS Y CREANDO AL MISMO TIEMPO EL USUARIO
+#DANDO PRIVILEGIOS Y CREANDO AL MISMO TIEMPO EL USUARIO
 grant all privileges on *.* to gabriel@localhost identified by 'admin' with grant option
 flush privileges
 
