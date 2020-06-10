@@ -9,6 +9,12 @@ create user nameuser identified by 'passworduser'
 grant all privileges on nametable.* to 'nameuser' with grant option
 flush privileges
 
+
+
+grant all privileges on *.* to gabriel@localhost identified by 'admin' with grant option
+
+
+
 #Mostrar base de datos
 show databases;
 
