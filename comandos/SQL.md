@@ -44,6 +44,27 @@ SELECT u.User,Db FROM mysql.user u,mysql.db d WHERE u.User = d.user;
 SELECT USER(),CURRENT_USER();
 
 ``` 
+ __<span style="color: green;">➤ Lenguaje SQL  </span>__    
+```sh
+  create database prueba;
+  
+  use empresa;
+  
+  create table productos( 
+    id_producto INT NOT NULL AUTO_INCREMENT,
+    nombre_producto VARCHAR(45) NOT NULL,
+    tipo_producto VARCHAR(45) NOT NULL,
+    precio_producto varchar(10) NOT NULL,
+    primary key(id_producto)
+  )
+
+
+ #Eliminar DB
+    DROP DATABASE prueba;
+``` 
+
+
+
 <hr/>
 
 
