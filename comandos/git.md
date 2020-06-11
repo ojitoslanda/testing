@@ -81,16 +81,12 @@ __<span style="color: green;">➤ Uso del Github con git </span>__
  #Clonar un repositorio
           git clone https://github.com/example/example.git
           
-
           git remote -v                 #  Ver si esta correctamente vinculado mi proyecto con Git y Github
           git remote remove origin      #  Desvinculamos el Git y Github (REPOSITORIOS)
           
   # esto sirve para mandar y tambien crear tus archivos local a github directo          
         git remote add origin https://github.com/ojitoslanda/proyecto.git
         git push -u origin master     # Guardamos  
-        
-   
-     
 ```   
 
  __<span style="color: green;">➤ Creamos un archivo .gitignore  </span>__    
@@ -167,11 +163,9 @@ __<span style="color: green;">➤ Uso del Github con git </span>__
         git reset --hard bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
 ``` 
 
-
-
-<strong>  ➤ Volver en el tiempo a tu repositorio o ver el codigo pasado </strong> 
-
-          ->  git log
+ __<span style="color: green;">➤ Volver en el tiempo a tu repositorio o ver el codigo pasado      </span>__    
+```sh
+        ->  git log
           
           ->  commit bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
                 Author: ojitoslanda <ojitoslanda@gmail.com>
@@ -182,6 +176,9 @@ __<span style="color: green;">➤ Uso del Github con git </span>__
           
              #Para volver al ultimo commit que hice o volver al actual
           ->   git checkout master
+``` 
+
+         
           
  __<span style="color: green;">➤ Concepto Head   </span>__    
 ```sh
@@ -195,7 +192,47 @@ __<span style="color: green;">➤ Uso del Github con git </span>__
                 Mi primer commit 
                 
        Head -> commit bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
-```           
+```       
+
+
+
+          
+ __<span style="color: green;">➤ Creando un Tag ( Etiquetas ) - El uso de de versiones   </span>__    
+```sh
+#Las tag sirve para especificar a los commit que son las versiones de nuestro proyecto 
+#Si tenemos o estamos en el commit 50, podemos decir que desde ahi es la version v1.0
+
+# Tag anotadas (El mas usado -recomendada) : son almacenadas com objetos completos dentro de la base de Git y contienen mas información
+        git tag -a v1.0 -m "Mensaje" 
+# Tag ligeras : Son otra forma de crear tags, más simples y con poca informacion
+       `git tag v1.0
+
+
+#Especificacion de Tag para los commit : Al agregar el codigo SHA Podemos especificar donde se va a aplciar una etiqueta
+        git tag -a v0.1 -m "Version 0.1 de nuestro primer proyecto" bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
+        
+#Compartiendo o subir Nuestra tags  a Githu
+        git push origin v0.8  
+
+#Compartiendo  o Subir todos los tag que creamos en una sola a github
+        git push origin  --tags
+
+```
+ __<span style="color: green;">➤ Modificar el ultimo Commit  </span>__    
+```sh
+#tenemos que ver si se guardo el commit en el github (No el modificado, me refiero el actual), osea el que queremos modificar
+#si vemos que ese ultimo commit  que hicimos no queremos en el github y lo queremos modificar, hacemos lo siguiente
+
+# Modificamos el ultimo commit que hicimos en el local
+        git log
+        git commit --amend -m "Modificando commit xd"
+#Guardamos tambien en el github, 
+        git push origin master -f  # (-f) para forzar que suba estos cambios
+    
+```   
+
+
+
 <strong>  ➤ Llaves SSL </strong> 
 
            eval "$(ssh-agent -s)"
@@ -218,7 +255,7 @@ __<span style="color: green;">➤ Uso del Github con git </span>__
            git commit -m "Cambios al $fecha"
            git push origin dev
                       
-       Escribimos en el terminal 
+           # Escribimos en el terminal 
             bash offline/git-dev.sh (la ruta depende de la carpeta donde fue creada el archivo)
             
  <strong>  ➤ Subir cambios o traer los cambios de mis compañeros de trabajo </strong> 
