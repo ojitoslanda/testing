@@ -57,7 +57,44 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 `git checkout -- filename.html `  | Invertir , Cambiar el orden o volver  los cambios de los archivos
 `git diff`  | Ver las diferencias hechas en los archivos
 
-     
+ 
+  __<span style="color: green;">➤ WorkFlows   </span>__    
+```sh
+#Proyectos con equipos 
+#Create an organization
+        git branch -a  #Mostrar la ramas  ocultas
+
+# (omar hace esto: ) Guardamos en el repositorio remoto (Github)
+   git add .
+   git commit -m "Mas especifico con tu mensajes"
+   git push origin master 
+
+
+
+/*
+# (gabo debe ver esto:) Para ver primero si tenemos antigua la conexion de antes (MUY IMPORTANTE PARA NO TENER PROBLEMAS, SOLO EN CASO SI MOVI MI REPOSITORIO A OTRO ) 
+      git remote -v
+        Ejemplo
+         origin  https://github.com/ojitoslanda/proyecto.git (fetch)
+         origin  https://github.com/ojitoslanda/proyecto.git (push)
+# Eliminamos eso
+        git remote remove origin 
+# Agregamos la nueva conexion - con el equipo de trabajo de la organizacion(su repositorio)           
+        git remote add origin https://github.com/ODLSoft/Testing.git
+# Ver si hicimos correctamente 
+        git remote -v
+*/
+       
+# (Gabo debe hacer esto si no tiene los cambios del otro compañero)  # Guardamos sus cambios de mis compañeros
+   git fetch origin                    
+   git merge origin/master   
+
+```
+
+
+ 
+ 
+ 
  __<span style="color: green;">➤ Guardamos en Git  </span>__    
 ```sh
 # COMANDOS 
@@ -128,16 +165,20 @@ __<span style="color: green;">➤ Uso del Github con git </span>__
 
  __<span style="color: green;">➤ Fusiones o Fusionar </span>__    
 ```sh
-# Es la creación de un nuevo commit juntando una rama con otra.
+# Es la creación de un nuevo commit juntando una rama con otra (se usa en GIT).
         git checkout master #Tenemos que estar en la rama principal (master)
         git branch       # Aseguramos que estamos en la rama master
         git merge dev    # Fusionamos la rama "dev" para que pase todo el codigo a master
 
 
+#MUY IMPORTANTE LEER ESTO
 #Fast-Foward(Simple y automatico)
-        Solo va a hacer la fusion, esto pasa normalmente cuando se trabaja con archivos diferetnes o lineas de codigos distintas
+        Solo va a hacer la fusion, esto pasa normalmente cuando se trabaja con archivos diferentes o lineas de codigos distintas
 #Manual Merge(Largo y Manual) - Trabajo en equipo
         Antes de hacer la fusion tiene que pasar por nosotros, normalmente ocurre cuando se trabaja en los mismo archivos o lineas de codigo
+        
+        
+        
 # Eso seria todo amiguitos xd      
 ``` 
 
@@ -194,8 +235,6 @@ __<span style="color: green;">➤ Uso del Github con git </span>__
        Head -> commit bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
 ```       
 
-
-
           
  __<span style="color: green;">➤ Creando un Tag ( Etiquetas ) - El uso de de versiones   </span>__    
 ```sh
@@ -205,8 +244,7 @@ __<span style="color: green;">➤ Uso del Github con git </span>__
 # Tag anotadas (El mas usado -recomendada) : son almacenadas com objetos completos dentro de la base de Git y contienen mas información
         git tag -a v1.0 -m "Mensaje" 
 # Tag ligeras : Son otra forma de crear tags, más simples y con poca informacion
-       `git tag v1.0
-
+        git tag v1.0
 
 #Especificacion de Tag para los commit : Al agregar el codigo SHA Podemos especificar donde se va a aplciar una etiqueta
         git tag -a v0.1 -m "Version 0.1 de nuestro primer proyecto" bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
