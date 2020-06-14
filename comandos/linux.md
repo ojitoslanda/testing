@@ -10,7 +10,7 @@ sudo aptitude install rar
 ```
 
 
-
+### Instalando rar & unrar
 ```sh
 # Instalando rar & unrar
    sudo apt-get install rar
@@ -31,18 +31,18 @@ unrar x nombre_del_rar.rar ruta donde lo queramos descomprimir
 #Con la primera orden lo descomprimiremos en el directorio que nos encontramos y con la segundo le diremos el directorio en el que queremos que lo descomprima.
 ```
 
-
+### Listar paquetes instalados
 ```sh
 # Listar paquetes instalados
 # Para listar el total de paquetes instalados ejecutamos el siguiente comando.
    sudo dpkg --get-selections
 ```
-
+### Listar paquetes instalados
 ```sh
 # Desinstalar programa desde la Terminal
    sudo apt-get remove [nombre del programa] 
 ```
-
+###  Instalando a lo antigua
 ```sh
 # Instalando
    sudo apt-get update        //actualice el repositorio de paquetes disponibles para instalar.
