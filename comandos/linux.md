@@ -1,15 +1,30 @@
+### Debian 10
+```sh
+
+# instalar paquetes  de programas //antiguamente era apt-get Y ahora es aptitude
+apt-get install aptitude
+aptitude update
+aptitude upgrade
+
+sudo aptitude install rar
+```
+
+
 
 ```sh
 # Instalando rar & unrar
    sudo apt-get install rar
    sudo apt-get install unrar
+   
 #Si esta orden nos reportará algún tipo de problema, 
 #cosa que me sucedió a mi mismo, añadiremos al final –fix-missing quedando de esta manera:
    sudo apt-get install unrar –fix-missing
 #Con la primera orden añadiremos los archivos uno a uno, y con la segunda incluiremos todos los archivos que estén dentro del directorio en que nos encontremos.
+
 #Para comprimir archivos usaremos el comando:
    rar a nombre_archivo.rar archivos a incluir
    rar a nombre_archivo.rar  *
+   
 #Para descomprimir será tan sencillo como usar el comando unrar:
 unrar x nobre_del_rar.rar
 unrar x nombre_del_rar.rar ruta donde lo queramos descomprimir
@@ -21,131 +36,31 @@ unrar x nombre_del_rar.rar ruta donde lo queramos descomprimir
 # Listar paquetes instalados
 # Para listar el total de paquetes instalados ejecutamos el siguiente comando.
    sudo dpkg --get-selections
-
-# Desinstalar programa desde la Terminal
-   sudo apt-get remove [nombre del programa] 
-   
-   
-# Desinstalar Apache
-    sudo service apache2 stop
-   sudo apt-get remove apache2
-   sudo apt-get autoremove apache2
-   sudo apt-get purge apache2
-   sudo apt-get autoremove --purge apache2
-   
-# Desinstalar nginx 
-   sudo apt-get remove nginx
-   sudo apt-get autoremove nginx
-   sudo apt-get purge nginx
-   sudo apt-get autoremove --purge nginx
-   
-# Desinstalar mysql-workbench 
-#  Para desinstalar unicamente mysql-workbench en Debian  ejecutar los siguientes comandos:
-   sudo apt-get remove mysql-workbench
-   sudo apt-get autoremove mysql-workbench
-   sudo apt-get purge mysql-workbench
-   sudo apt-get autoremove --purge mysql-workbench
-   
-# Desinstalar mariadb-server-10.0  /  Mysql
-   sudo service mysql stop
-   sudo apt-get remove mariadb-server
-   sudo apt-get autoremove mariadb-server
-   sudo apt-get purge mariadb-server
-   sudo apt-get autoremove --purge mariadb-server
-   
-
-# Desinstalar php , To remove php 7, you can try:
-  sudo apt-get remove php-fpm
-  sudo apt-get autoremove php-fpm
-  sudo apt-get purge php-fpm
-  sudo apt-get autoremove --purge php-fpm
-  sudo apt-get autoremove
-   sudo apt-get autoclean
 ```
-
 
 ```sh
-#Instalando LEMP (Linux - Apache - MariaDB / Mysql - PHP )
-sudo apt update
-sudo apt install apache2
-sudo apt install mariadb-client mariadb-server
-sudo apt install php php-mysql
-sudo systemctl status mysql  # ver si esta corriendo mysql
-sudo service apache2 status # ver si esta corriendo apache
-sudo mysql_secure_installation # configuraciones basicas de mysql/mariadb
-
-
-mysql -u root -p # conectamos a mysql
-
-#Creamos un usuario
-create user root identified by ''
-grant all privileges on nametable.* to root
-flush privileges
-
-
-
-#Instalando LEMP (Linux - Ngnix - MariaDB / Mysql - PHP )
-sudo apt update
-sudo apt install nginx
-sudo apt install mysql-server
-sudo mysql_secure_installation
-sudo apt install php-fpm php-mysql
-sudo nano /etc/nginx/sites-available/default
-
-
-server {
-        listen 80;
-        root /var/www/html;
-        index index.php index.html index.htm index.nginx-debian.html;
-        server_name localhost;
-
-        location / {
-                try_files $uri $uri/ =404;
-        }
-
-        location ~ .php$ {
-                include snippets/fastcgi-php.conf;
-                fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;
-        }
-
-        location ~ /.ht {
-                deny all;
-        }
-}
-
-
-sudo service nginx restart
-sudo nano /var/www/html/info.php
-<?php
-phpinfo();
-?>
-
-
+# Desinstalar programa desde la Terminal
+   sudo apt-get remove [nombre del programa] 
 ```
-
 
 ```sh
 # Instalando
    sudo apt-get update        //actualice el repositorio de paquetes disponibles para instalar.
    sudo apt-get upgrade
    
-   Sin su Root
+#  Sin su Root
    sudo apt-get install git
     
-    
-   su root
-   apt-get install apache2
-   apt-get install mariadb-client mariadb-server
-   apt-get install php php-mysql
-   
-   sudo aptitude install
-   
-   
    //instalar archivos .deb
+   sudo dpkg -i nombredelarchivo.deb  //otra manera para instalar
+   sudo apt install -f              //Eso significa que instale las dependencias faltantes  - Las dependencias que faltan
+   
+   
+   
    sudo chmod 777 filename.bin  // 1prt dando permisos de sudo (superusuario para instalar 
    sudo ./namefile.bin         // 2prt  listo para instalar    
    
-   sudo dpkg -i nombredelarchivo.deb  //otra manera para instalar
+ 
    
 ```
 
@@ -154,13 +69,6 @@ phpinfo();
     
    sudo apt-get build-dep nombredelprograma
 ```
-
-
- putty
-mkdir ssl -> nose xd
-
-
-
 
 ## Comandos Básicos de Linux
 
