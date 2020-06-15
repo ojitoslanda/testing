@@ -18,5 +18,7 @@ Es una plataforma de desarrollo para crear aplicaciones web móviles y de escrit
   ngfor
 ```
 
+### Leer la documentación 
 
+https://angular.io/guide/setup-local
     
