@@ -5,6 +5,21 @@ Es una herramienta para inicializar, desarrollar, automatizar y mantener aplicac
 * **Angular:** 
 Es una plataforma de desarrollo para crear aplicaciones web móviles y de escritorio utilizando Typescript/JavaScript y otros lenguajes.
 
+*Angular
+```sh
+*node 
+	node -v
+(npm node pack manger) -g (global)
+
+*typescript
+	tsc -v
+
+*Angular CLI 
+	ng version
+
+*IONIC
+```
+
 ### Componentes 
 ```sh
 # Son clases normales con un decorador especifico
