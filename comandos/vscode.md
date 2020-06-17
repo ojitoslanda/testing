@@ -11,9 +11,17 @@ Archivo
  
  __<span style="color: green;">➤ Extensiones de VsCode  </span>__    
 ```sh
-Extensiones o Puglins
-
+#Extensiones o Puglins
 -Flatland Monokai Theme
 -Vscode-Icons
 -SPanish Languaje pack para Visual COde
+-Bookmarks
+-Bracket Pair Colorizer 2
+-Color Highlight
+-Liveserver
+-Material Icon Theme
+-Material Theme
+-Paste JSON as Code
+-TODO Highlight
+-TODO Tree
 ``` 
