@@ -56,7 +56,7 @@ unrar x nombre_del_rar.rar ruta donde lo queramos descomprimir
    sudo apt install -f              //Eso significa que instale las dependencias faltantes  - Las dependencias que faltan
    
    
-   
+   sudo chmod 777 -R nombre_de_la_carpeta  // Dando permiso a las carpetas y a las demas carpetas
    sudo chmod 777 filename.bin  // 1prt dando permisos de sudo (superusuario para instalar 
    sudo ./namefile.bin         // 2prt  listo para instalar    
    
