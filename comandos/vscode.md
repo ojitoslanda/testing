@@ -6,6 +6,8 @@ Archivo
   Preferencias
     -format on save  (Dale Check de Permitir (Por defecto sale desactivado) ) es para que tu texto se ordene
     -Word Wrap -> Controla como debe ejecutarse la linea (Se achican los parrafos)
+    -Keyboard shortcuts
+
 ``` 
 
  
@@ -25,3 +27,19 @@ Archivo
 -TODO Highlight
 -TODO Tree
 ``` 
+
+ __<span style="color: green;">➤ Atajos  </span>__    
+```sh
+ctrl+shift+p (abre propiedades) 
+
+#Comentar en Linux
+CTRL + SHIFT + A    (multiline /* ejemplo */ ) 
+Ctrl+K Ctrl+C - Añadir línea comentario.
+Ctrl+K Ctrl+U - Eliminar línea comentario.
+
+#Comentar en Windows
+CTRL + ALT + A     (multiline /* ejemplo */ ) 
+
+
+``` 
+
