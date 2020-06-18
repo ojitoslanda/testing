@@ -31,6 +31,17 @@ unrar x nombre_del_rar.rar ruta donde lo queramos descomprimir
 #Con la primera orden lo descomprimiremos en el directorio que nos encontramos y con la segundo le diremos el directorio en el que queremos que lo descomprima.
 ```
 
+### CONFIGURAR MI TECLADO ESPAÑOL O LATIONOAMERICA   & VER EL MODELO DE MI LAPTOP
+```sh
+#Listar paquetes instalados
+https://tecnovortex.com/diferencias-de-teclados-espanol-y-latinoamericano/
+//Keyboard ver si en las configuraciones, si mi teclado esta en español o lationoamericano
+#Ver el modelo de mi latop
+sudo aptitude install dmidecode
+sudo dmidecode
+sudo dmidecode -t System | grep Product
+```
+
 ### Listar paquetes instalados
 ```sh
 # Listar paquetes instalados
