@@ -128,8 +128,8 @@ __<span style="color: green;">➤ Crear Snippets  </span>__
  
 ``` 
 
-#### Building for source
-For production release:
+#### Example
+Example
 ```sh
-$ gulp build --prod
+Example
 ```
