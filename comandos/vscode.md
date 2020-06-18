@@ -35,14 +35,14 @@ Archivo
 
 
 # Configuración del Bracket Pair Colorizer 2 (DE LA EXTENSION) 
-	` "bracket-pair-colorizer-2.colors": [
+	 "bracket-pair-colorizer-2.colors": [
 	    "#fafafa",
 	    "#9F51B6",
 	    "#F7C244",
 	    "#F07850",
 	    "#9CDD29",
 	    "#C497D4"
-	], `
+	],`
 
 ``` 
 
