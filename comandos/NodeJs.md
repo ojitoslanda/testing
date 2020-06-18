@@ -1,5 +1,7 @@
 https://www.youtube.com/watch?v=MhrPeOoEJBA
 
+command -v nvm
+
  __<span style="color: green;">➤ NVM  (node version manager) </span>__    
 ```sh
 Archivo
