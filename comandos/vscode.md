@@ -87,6 +87,8 @@ ctrl+shift+p (abre propiedades)
 #Remplazar una palabra de la clase y que afecte a todo lo que utilize con el
  F2     #seleccionas primero la palabra para que apretes ese comando y luego replanzas
  
+#Cambiar las dos etiquetas 
+ Ctrl+D (Primero seleciona la etiqueta inicial y luego apreta el comando)
 ``` 
 
 __<span style="color: green;">➤ Crear Snippets  </span>__   
