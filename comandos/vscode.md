@@ -95,35 +95,36 @@ __<span style="color: green;">➤ Crear Snippets  </span>__
 ```sh
  #Crear Snippets (Sirve para completar automaticamentes o construya comando rapidos)
    Ir a preferences  > User Snippets > Elige el lenguaje de programacion para poder crear un comando por defecto para eso
-    "Mostrar Consola":{
+****************************************************  
+"Mostrar Consola":{
    "prefix": "cls",
    "body": [
      "console.log('Ok');"
    ],
    "description": "Mostrar un console.log en VsCode..."
   }
-  
-	// "Print to console": {
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
- 
- 	"Generar Clase":	{
-		"prefix": "clase",
-		"body": [
-							"export class ${1:NombreClase} {",
-							"",
-							"   constructor() { ",
-							"          $2",
-							"     }",
-							"}"
-		],
-		"description": "Creando Clase automaticamente"
-	}
+****************************************************  
+// "Print to console": {
+// 	"prefix": "log",
+// 	"body": [
+// 		"console.log('$1');",
+// 		"$2"
+// 	],
+// 	"description": "Log output to console"
+// }
+****************************************************   
+"Generar Clase":	{
+"prefix": "clase",
+"body": [
+		"export class ${1:NombreClase} {",
+		"",
+		"   constructor() { ",
+		"          $2",
+		"     }",
+		"}"
+	],
+"description": "Creando Clase automaticamente"
+}
  
 ``` 
 
