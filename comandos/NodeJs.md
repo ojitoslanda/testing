@@ -1,6 +1,6 @@
 https://www.youtube.com/watch?v=MhrPeOoEJBA
 
- __<span style="color: green;">➤ NVM  (node version managment) </span>__    
+ __<span style="color: green;">➤ NVM  (node version manager) </span>__    
 ```sh
 Archivo
   --lts               # Programa de soporte a largo plazo (LTS).
