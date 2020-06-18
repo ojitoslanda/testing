@@ -19,17 +19,44 @@ Archivo
  __<span style="color: green;">➤ Extensiones de VsCode  </span>__    
 ```sh
 #Extensiones o Puglins
--Flatland Monokai Theme
+-Flatland Monokai Theme  	o 	Monokai Night Theme
 -Vscode-Icons
--SPanish Languaje pack para Visual COde
+-Spanish Languaje pack para Visual Code
+-Activitus Bar
+-Liveserver
+
+#Extensiones o Plugins Extras 
 -Bookmarks
 -Bracket Pair Colorizer 2
 -Color Highlight
--Liveserver
 -Paste JSON as Code
 -TODO Highlight
 -TODO Tree
+
+
+# Configuración del Bracket Pair Colorizer 2 (DE LA EXTENSION) 
+	` "bracket-pair-colorizer-2.colors": [
+	    "#fafafa",
+	    "#9F51B6",
+	    "#F7C244",
+	    "#F07850",
+	    "#9CDD29",
+	    "#C497D4"
+	], `
+
 ``` 
+
+
+
+
+
+
+
+
+
+
+
+
 
  __<span style="color: green;">➤ Atajos  </span>__    
 ```sh
@@ -57,7 +84,10 @@ ctrl+shift+p (abre propiedades)
  Ctrl + Shift +l
 #Ocultar la barra de SideBar
  Ctrl + B
-  
+ 
+#Word Wrap
+ Alt-Z 		
+    
 #Selecionar un archivo especifico
  Ctrl + P
     
