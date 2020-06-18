@@ -26,8 +26,6 @@ Archivo
 -Bracket Pair Colorizer 2
 -Color Highlight
 -Liveserver
--Material Icon Theme
--Material Theme
 -Paste JSON as Code
 -TODO Highlight
 -TODO Tree
