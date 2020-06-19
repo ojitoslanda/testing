@@ -24,6 +24,7 @@ Archivo
 -Spanish Languaje pack para Visual Code
 -Activitus Bar
 -Liveserver
+-Polacode
 
 #Extensiones o Plugins Extras 
 -Bookmarks
