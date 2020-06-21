@@ -72,9 +72,6 @@ ctrl+shift+p (abre propiedades)
 #Comentar en Windows
  CTRL + ALT + A     (multiline /* ejemplo */ ) 
 
-#Como eliminar de una sola
- Ctrl + Shit + L # Seleccionar todas las ocurrencias de la selección
- Ctrl + Shift + K
 
 #Buscar la linea ejemplo (Linea 4443)
  Ctrl + G    
