@@ -42,7 +42,7 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 <hr/>
 
 
- __<span style="color: green;">➤ Creando remoto git  </span>__    
+ __<span style="color: green;">➤ ProTips  </span>__    
 ```sh
 # COMANDOS 
     sudo aptitude install git
@@ -51,6 +51,11 @@ También puedes comprobar el valor que Git utilizará para una clave específica
     git config --global user.name "John Doe"
     git config --global user.email johndoe@example.com
     git init
+    git status
+    git commit -m "mensaje"
+    git log
+    git checkout -- .     #Recuperar mis archivos  o carpetas borrachos, con el ultimo commit creado
+    
     
         
 ``` 
