@@ -42,6 +42,22 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 <hr/>
 
 
+ __<span style="color: green;">➤ Creando remoto git  </span>__    
+```sh
+# COMANDOS 
+    sudo aptitude install git
+    git --version
+    git config --list
+    git config --global user.name "John Doe"
+    git config --global user.email johndoe@example.com
+    git init
+    
+        
+``` 
+
+
+
+
 ## Comandos Básicos de Git
 
 | Comando | Descripción |
