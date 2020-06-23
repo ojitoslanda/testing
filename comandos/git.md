@@ -45,18 +45,20 @@ También puedes comprobar el valor que Git utilizará para una clave específica
  __<span style="color: green;">➤ ProTips  </span>__    
 ```sh
 # COMANDOS 
-    sudo aptitude install git
-    git --version
-    git config --list
-    git config --global user.name "John Doe"
-    git config --global user.email johndoe@example.com
-    git init
-    git status
-    git commit -m "mensaje"
-    git log
-    git checkout -- .     #Recuperar mis archivos  o carpetas borrachos, con el ultimo commit creado
-    
-    
+sudo aptitude install git
+git --version
+git config --list
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git init
+git status
+git commit -m "mensaje"
+git log
+git checkout -- .     #Recuperar mis archivos  o carpetas borrachos, con el ultimo commit creado
+
+# esto sirve para mandar y tambien crear tus archivos local a github directo          
+git remote add origin https://github.com/ojitoslanda/proyecto.git
+git push -u origin master     # Guardamos  
         
 ``` 
 
