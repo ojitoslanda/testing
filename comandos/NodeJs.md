@@ -24,3 +24,11 @@ Archivo
    nvm list
 
 ``` 
+
+
+ __<span style="color: green;">➤ npm (Node package manager)  Gestionar cualquier paquete de node  </span>__    
+```sh
+#Crear un archivo package.json, (Como funciona la aplicacion, etc..)
+   npm init 
+
+``` 
