@@ -56,7 +56,7 @@ También puedes comprobar el valor que Git utilizará para una clave específica
 `git checkout tu_rama`  | Cambiar de Rama o Version alternativa 
 `git checkout -- filename.html `  | Invertir , Cambiar el orden o volver  los cambios de los archivos
 `git diff`  | Ver las diferencias hechas en los archivos
-
+`git checkout -- .`  | Volver todo a la normalidad ( Claro si guardaste con el Git )
  
   __<span style="color: green;">➤ WorkFlows   </span>__    
 ```sh
