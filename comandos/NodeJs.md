@@ -31,7 +31,7 @@ Archivo
 #Crear un archivo package.json, (Como funciona la aplicacion, etc..)
    npm init
    
-#Recuerden que para reconstruir los módulos de node deben de ejecutar este comando
+#Recuerden que para reconstruir los módulos  de node (package.json) deben de ejecutar este comando
 npm install
 
 ``` 
