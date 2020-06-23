@@ -29,6 +29,9 @@ Archivo
  __<span style="color: green;">➤ npm (Node package manager)  Gestionar cualquier paquete de node  </span>__    
 ```sh
 #Crear un archivo package.json, (Como funciona la aplicacion, etc..)
-   npm init 
+   npm init
+   
+#Recuerden que para reconstruir los módulos de node deben de ejecutar este comando
+npm install
 
 ``` 
