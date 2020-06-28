@@ -34,8 +34,11 @@ Archivo
 #Recuerden que para reconstruir los módulos  de node (package.json) deben de ejecutar este comando
   npm install
 
-
 # npm nodemon     https://www.npmjs.com/package/nodemon
+
+#Dependencias obligatorias de mi aplicacion
+  npm i --save namepaquete
+
 # Cuando un comando -g este termino es GLOBAL, tienen que instalar como superusuario "sudo" 
    sudo npm install -g nodemon
    nodemon -v
