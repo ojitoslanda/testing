@@ -52,6 +52,7 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 git init
 git status
+git add .
 git commit -m "mensaje"
 git log
 git checkout -- .     #Recuperar mis archivos  o carpetas borrachos, con el ultimo commit creado
