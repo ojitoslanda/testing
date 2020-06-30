@@ -18,13 +18,14 @@ Archivo
  
  __<span style="color: green;">➤ Extensiones de VsCode  </span>__    
 ```sh
-#Extensiones o Puglins
+#Extensiones o Puglins (Usar)
 -Flatland Monokai Theme  	o 	Monokai Night Theme
 -Vscode-Icons
 -Spanish Languaje pack para Visual Code
 -Activitus Bar
 -Liveserver
 -Polacode
+-Auto Rename Tag
 
 #Extensiones o Plugins Extras 
 -Bookmarks
