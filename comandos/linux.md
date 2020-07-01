@@ -61,6 +61,8 @@ sudo dmidecode -t System | grep Product
 ```sh
 # Desinstalar programa desde la Terminal
    sudo apt-get remove [nombre del programa] 
+   sudo aptitude remove [nombre del programa]
+   
 ```
 ###  Instalando a lo antigua
 ```sh
