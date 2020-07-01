@@ -61,7 +61,13 @@ sudo dmidecode -t System | grep Product
 ```sh
 # Desinstalar programa desde la Terminal
    sudo apt-get remove [nombre del programa] 
+   
+# Para eliminar un programa de tu distribución
    sudo aptitude remove [nombre del programa]
+   sudo apt-get remove [nombre del programa]
+# Para desinstalar el programa y a su vez, eliminar todos los archivos asociados a el dentro de la distro
+   sudo apt-get --purge remove [nombre del programa] clear
+   sudo aptitude --purge remove [nombre del programa] 
    
 ```
 ###  Instalando a lo antigua
