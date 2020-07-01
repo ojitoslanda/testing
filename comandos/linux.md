@@ -47,8 +47,17 @@ sudo dmidecode -t System | grep Product
 # Listar paquetes instalados
 # Para listar el total de paquetes instalados ejecutamos el siguiente comando.
    sudo dpkg --get-selections
+   
+# Para saber que programas están instalados escribimos en un terminal:
+   dpkg --get-selections
+   
+# Si la lista es muy larga, podemos buscar solo el programa que necesitamos:
+   dpkg --get-selections | grep python
+   
+   Y para saber donde está situado:
+   dpkg -L phyton-apt
 ```
-### Listar paquetes instalados
+### Eliminar paquetes instalados
 ```sh
 # Desinstalar programa desde la Terminal
    sudo apt-get remove [nombre del programa] 
