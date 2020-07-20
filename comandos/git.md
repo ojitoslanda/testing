@@ -80,6 +80,27 @@ git push -u origin master     # Guardamos
 `git diff`  | Ver las diferencias hechas en los archivos
 `git checkout -- .`  | Volver todo a la normalidad ( Claro si guardaste con el Git )
  
+  
+ __<span style="color: green;">➤ Uso del SSH key (Deployment con git)  </span>__    
+```sh
+# Nos sirve para conectarnos fácilmente a un servidor o servidores, sin tener que poner una contraseñaa a cada momento
+   ssh-keygen
+   archivo.pub
+   
+# ➤ Llaves SSL 
+eval "$(ssh-agent -s)"
+ssh-add /home/gabriel/Documents/ssl/gabriel/gabriel
+```   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   __<span style="color: green;">➤ WorkFlows   </span>__    
 ```sh
 #Proyectos con equipos 
@@ -292,21 +313,7 @@ __<span style="color: green;">➤ Uso del Github con git </span>__
 ```   
 
 
-
-<strong>  ➤ Llaves SSL </strong> 
-
-           eval "$(ssh-agent -s)"
-           ssh-add /home/gabriel/Documents/ssl/gabriel/gabriel
-           
-<strong>  ➤ Guardamos Github </strong> 
-
-          git status
-          git add .
-          git commit -m "comentario"
-          git push origin nombre_rama
-
-
-<strong>  ➤ Creamos un archivo (git-dev.sh) , guardar automicamente, sin necesidad de escribir </strong> 
+<strong> Git Hooks ➤  Creamos un archivo (git-dev.sh) , guardar automicamente, sin necesidad de escribir </strong> 
 
            #!/bin/bash
            fecha=`date +"%Y-%m-%d %T"`
