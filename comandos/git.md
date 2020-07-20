@@ -79,7 +79,7 @@ git push -u origin master     # Guardamos
 `git checkout -- filename.html `  | Invertir , Cambiar el orden o volver  los cambios de los archivos
 `git diff`  | Ver las diferencias hechas en los archivos
 `git checkout -- .`  | Volver todo a la normalidad ( Claro si guardaste con el Git )
- 
+`git reset HEAD CONTRIBUTING.md`  | Deshacer un Archivo Preparado (Git status)
   
  __<span style="color: green;">➤ Uso del SSH key (Deployment con git)  </span>__    
 ```sh
