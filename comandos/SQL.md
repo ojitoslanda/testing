@@ -46,10 +46,16 @@ SELECT USER(),CURRENT_USER();
 ``` 
  __<span style="color: green;">➤ Lenguaje SQL  </span>__    
 ```sh
+# Mostrar las bases de datos
+ show databases;
+
+# Crear una base de datos;
   create database prueba;
   
+# Usar la base de datos; 
   use empresa;
-  
+
+# Crear una tabla para la DB
   create table productos( 
     id_producto INT NOT NULL AUTO_INCREMENT,
     nombre_producto VARCHAR(45) NOT NULL,
@@ -58,8 +64,29 @@ SELECT USER(),CURRENT_USER();
     primary key(id_producto)
   )
 
+ CREATE TABLE empleados(
+  id_empleado INT NOT NULL auto_increment,
+  nombre_empleado varchar(50) not null,
+  apellido_empleado varchar(50) not null,
+  area_trabajo varchar(50) not null,
+  titulo varchar(45) not null,
+  primary key(id_empleado)
+ );
+ 
+# Insertar datos en la tabla de la DB
+insert into empleados(nombre_empleado,apellido_empleado,area_trabajo,titulo)values('Alex Gabriel',' Gomez','Mercadotecnia','Licenciatura en Mercadotecnia');
 
- #Eliminar DB
+# Seleccionar o mostrar datos de la tabla
+select * from administrador;
+
+# Actualizar o modificar datos de la tabla
+update administrador set arealaboral_admin = 'Finanzas' where id_administrador = 2;
+update administrador set correo = 'alex.gomez@gmail.com' where id_administrador = 2;
+
+# Eliminar datos de la tabla
+delete from administrador where id_administrador = 1;
+
+# Eliminar DB
     DROP DATABASE prueba;
 ``` 
 
