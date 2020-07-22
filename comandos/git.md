@@ -306,7 +306,7 @@ __<span style="color: green;">➤ Uso del Github con git </span>__
 
 # Modificamos el ultimo commit que hicimos en el local
         git log
-        git commit --amend -m "Modificando commit xd"
+        git commit --amend -m "Modificando commit xd"    o      git commit --amend
 #Guardamos tambien en el github, 
         git push origin master -f  # (-f) para forzar que suba estos cambios
     
