@@ -90,9 +90,23 @@ delete from administrador where id_administrador = 1;
     DROP DATABASE prueba;
 ``` 
 
+__<span style="color: green;">➤ Consultas con Patron LIKE  </span>__    
+```sh
+# Espera una comparación de datos contra un cadena con parámetros definidos. Por ejemplo, la cadena de parámetros ´ P% ´ indica que el primer carácter deberá ser una P y posteriormente seguirá cualquier cadena de valores.
+
+select * from empleados where area_trabajo LIKE 's%';
+``` 
 
 
 <hr/>
+
+
+
+
+
+
+
+
 
 
 MODELO E-R (ENTIDAD-RELACION)
