@@ -1,4 +1,4 @@
- __<span style="color: green;">➤ COMANDOS  </span>__    
+ __<span style="color: green;">➤ PRIVILEGIOS DE USUARIOS  </span>__    
 ```sh
 https://stackoverrun.com/es/q/10052713 -> Flush privileges
 # conectamos a mysql
@@ -20,8 +20,6 @@ drop user 'gabriel'@'localhost';
 #Otro Metodo
 SELECT user FROM mysql.user GROUP BY user;
 DELETE FROM mysql.user WHERE user = 'usuario';
-
-
 
 
 #Mostrar base de datos
@@ -96,17 +94,82 @@ __<span style="color: green;">➤ Consultas con Patron LIKE  </span>__
 # Por ejemplo, la cadena de parámetros ´ P% ´ indica que el primer carácter deberá ser una P y 
 # posteriormente seguirá cualquier cadena de valores.
 
-select * from empleados where area_trabajo LIKE 's%';
+SELECT * FROM alumnos where nombre LIKE 'A%';      # Desplegará el listado de los alumnos cuyos nombres comienzan con a 
+``` 
+
+__<span style="color: green;">➤ Operadores de comparacion </span>__    
+```sh
+# BETWEEN: espera un conjunto de valores numéricos bajo el cual poder hacer la comparación de los datos.
+# muy importante: Estos deben ser datos numéricos, del mismo conjunto o deberán pertenecer a un conjunto continuo de valores
+
+SELECT * FROM pedidos WHERE fecha BETWEEN '2015' AND '2020';
+
+
+# IN: para la operación se deberá especificar el conjunto de datos para comparación exacta contra los parámetros de nuestra elección. 
+# De esta forma, aplicamos IN a aquellos digitos que se desean cumplan con una función, 
+# que puede ser explicada o validada lógicamente mediante un conjunto de datos.
+
+SELECT * FROM pedidos WHERE provincia IN('Madrid','Barcelona','Sevilla');
+
+``` 
+
+__<span style="color: green;">➤ Ordenar datos ASCENDENTE o DESCENDENTE</span>__    
+```sh
+# ORDER BY: Permite ordenar los datos previo a la presentación al usuario. 
+# Los datos se pueden ordenar de manera ASCENDENTE O DESCENDETE. Si no se especifica, el valor por defecto es ASCENDENTE
+
+SELECT nombre,apellido FROM alumnos ORDER BY apelllidos DESC, nombre ASC;
 ``` 
 
 
+__<span style="color: green;">➤ Funciones de agregados</span>__    
+```sh
+#  COUNT : Cuenta el número de filas que cumplen con las especificaciones dadas.
+#  SUM   : Suma los datos en una columna determinada
+#  AVG   : Promedia los datos en una columna determianda.
+#  MAX   : Devuelve el máximo valor en una columna determinada.
+#  MIN   : Devuleve el minimo valor de una columna nada.
+
+SELECT COUNT(*) FROM carros;
+SELECT SUM(precio) FROM articulos;
+SELECT AVG(promedio) FROM carros;
+
+Asesoría en SQL Server
+‘’PARA OBTENER EL ULTIMO CODIGO SIN SER AUTOINCREMENTAL
+Select  Top(1)  id_boleta FROM boleta ORDER BY  id_boleta DESC ;
+
+‘PARA OBTENER EL ULTIMO CODIGO CON AUTO INCREMENTAL 
+Select IDEN_T CURRECT(‘boleta’);
+
+
+``` 
+
+
+__<span style="color: green;">➤ SELECCIONAR 2 o 3 TABLAS  PARA HACER CONSULTA </span>__    
+```sh
+Sede y farmacéutico son (ENTIDADES)
+
+# PARA INGRESAR Y CONSULTAR 2 TABLAS 
+
+SELECT sede.direccion , farmacéutico.apellidos, farmacéutico.nombres	
+FROM   sede , farmacéutico 
+WHERE  sede.ciudad='pucallpa' and farmacéutico.direccion='pucallpa';
+
+
+SELECT producto.descripcion,presentaciondos.nombre, presentaciondos.descripcion 
+FROM producto,presentaciondos 
+WHERE presentaciondos.id_producto='2' and producto.id_producto='2';
+
+
+
+# PARA INGRESAR Y CONSULTAR 3 TABLAS 
+SELECT peliculas.titulo,actor.nombre,actor.apellido FROM peliculas
+INNER JOIN pelicula_actua ON peliculas.id_pelicula =  pelicula_actua.peliculaID
+INNER JOIN actor ON pelicula_actua.actorID = actor.id_actor
+
+``` 
+
 <hr/>
-
-
-
-
-
-
 
 
 
