@@ -150,7 +150,6 @@ __<span style="color: green;">➤ SELECCIONAR 2 o 3 TABLAS  PARA HACER CONSULTA 
 Sede y farmacéutico son (ENTIDADES)
 
 # PARA INGRESAR Y CONSULTAR 2 TABLAS 
-
 SELECT sede.direccion , farmacéutico.apellidos, farmacéutico.nombres	
 FROM   sede , farmacéutico 
 WHERE  sede.ciudad='pucallpa' and farmacéutico.direccion='pucallpa';
@@ -159,8 +158,6 @@ WHERE  sede.ciudad='pucallpa' and farmacéutico.direccion='pucallpa';
 SELECT producto.descripcion,presentaciondos.nombre, presentaciondos.descripcion 
 FROM producto,presentaciondos 
 WHERE presentaciondos.id_producto='2' and producto.id_producto='2';
-
-
 
 # PARA INGRESAR Y CONSULTAR 3 TABLAS 
 SELECT peliculas.titulo,actor.nombre,actor.apellido FROM peliculas
