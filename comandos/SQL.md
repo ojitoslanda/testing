@@ -111,6 +111,10 @@ SELECT * FROM pedidos WHERE fecha BETWEEN '2015' AND '2020';
 
 SELECT * FROM pedidos WHERE provincia IN('Madrid','Barcelona','Sevilla');
 
+
+# 
+
+
 ``` 
 
 __<span style="color: green;">➤ Ordenar datos ASCENDENTE o DESCENDENTE</span>__    
