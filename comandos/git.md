@@ -241,7 +241,7 @@ __<span style="color: green;">➤ Uso del Github con git </span>__
         git reset --soft bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
         
    #Este Git Reset borra el "Staging Area" , sin tocar el "Working Area"
-        git reser --mixed bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
+        git reset --mixed bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
         
    #Este Git reset borra absolutamente todo lo que hay en el commit y los codigos
         git reset --hard bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
