@@ -247,6 +247,16 @@ __<span style="color: green;">➤ Uso del Github con git </span>__
         git reset --hard bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
 ``` 
 
+ __<span style="color: green;">➤ Revertir un commit  </span>__    
+```sh
+#
+git log --oneline                  # Mostrar los commit con ordenado
+git diff b43ec03 3ebe8bd           # Diferencia de los commit con el otro commit 
+git diff HEAD~1 HEAD
+
+git revert HEAD
+``` 
+
  __<span style="color: green;">➤ Volver en el tiempo a tu repositorio o ver el codigo pasado      </span>__    
 ```sh
         ->  git log
