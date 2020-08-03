@@ -265,7 +265,7 @@ git revert HEAD      <-- Descarta el ultimo commit pero te agrega un commit nuev
 git revert b8c6d57   <-- Descarta el commit con su propio llave individual pero te agrega un commit nuevo
 
 # Descarta o vuelve lo anterior del commit pero No borra el commit que hiciste, pero lo pone en state area
- git revert --no-commit HEAD     
+ git revert --no-commit HEAD~1 
  git revert --continue 
 ``` 
 
