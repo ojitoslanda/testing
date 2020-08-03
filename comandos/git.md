@@ -267,6 +267,17 @@ git revert b8c6d57   <-- Descarta el commit con su propio llave individual pero 
 # Descarta o vuelve lo anterior del commit pero No borra el commit que hiciste, pero lo pone en state area
  git revert --no-commit HEAD~1 
  git revert --continue 
+ 
+ 
+ 
+# Ejemplo:    git revert ba766fb           
+gabriel@gabriel:~/Documents/Repos/proyecto$ git log --oneline
+3c74eac (HEAD -> master) Revert "CAGANDOLA A VER QUE PASA"
+84f5188 CAGANDOLA A VER QUE PASA
+ba766fb MODIFICANDO OTRA VEZ
+ 
+
+ 
 ``` 
 
  __<span style="color: green;">➤ Volver en el tiempo a tu repositorio o ver el codigo pasado      </span>__    
