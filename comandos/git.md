@@ -264,7 +264,7 @@ git diff HEAD~1 HEAD               # Comparar el ultimo commit con la anterior
 git revert HEAD      <-- Descarta el ultimo commit pero te agrega un commit nuevo | no elimina el commit
 git revert b8c6d57   <-- Descarta el commit con su propio llave individual pero te agrega un commit nuevo
 
-# Descarta el commit pero No borra el commit que hiciste pero pone en state area.git
+# Descarta o vuelve lo anterior del commit pero No borra el commit que hiciste, pero lo pone en state area
  git revert --no-commit HEAD     
  git revert --continue 
 ``` 
