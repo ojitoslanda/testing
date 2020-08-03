@@ -245,16 +245,28 @@ __<span style="color: green;">➤ Uso del Github con git </span>__
         
    #Este Git reset borra absolutamente todo lo que hay en el commit y los codigos
         git reset --hard bdc1c52658ab7c277c5d5ce611a7f926e9b27f56
+        git reset --hard HEAD~2 (FILA 2 DEL HEAD)
 ``` 
 
- __<span style="color: green;">➤ Revertir un commit  </span>__    
+ __<span style="color: green;">➤ Revertir un commit  (Recomendable usar, en vez de Resetear)</span>__    
 ```sh
-#
-git log --oneline                  # Mostrar los commit con ordenado
-git diff b43ec03 3ebe8bd           # Diferencia de los commit con el otro commit 
-git diff HEAD~1 HEAD
+git log --oneline  o git log --oneline | cat  # Mostrar los commit con ordenado
+git log --oneline --decorate       # Sirve para ver los nombres de los punteros que tenemos en el repositorio (HEAD -> Master)
 
-git revert HEAD
+#COMPARAR COMMIT 
+          Anterior Actual      
+git diff b43ec03 3ebe8bd           # Diferencia de los commit con el otro commit  
+git diff HEAD~1 HEAD               # Comparar el ultimo commit con la anterior
+
+#REVERTIR UN COMMIT 
+  #- Descartar los cambios que se hicieron en un commit , pero te agrega otro commit nuevo 
+  # ejemplo del commit que se crea solo --->  Revert "Mensaje"
+git revert HEAD      <-- Descarta el ultimo commit pero te agrega un commit nuevo | no elimina el commit
+git revert b8c6d57   <-- Descarta el commit con su propio llave individual pero te agrega un commit nuevo
+
+# Descarta el commit pero No borra el commit que hiciste pero pone en state area.git
+ git revert --no-commit HEAD     
+ git revert --continue 
 ``` 
 
  __<span style="color: green;">➤ Volver en el tiempo a tu repositorio o ver el codigo pasado      </span>__    
