@@ -177,7 +177,7 @@ __<span style="color: green;">➤ Uso del Github con git </span>__
       # Ejemplo 
       # Si la carpeta se llama `test`, pongamos dentro del archivo de gitignore ->     test
 ``` 
- __<span style="color: green;">➤ Creamos una rama  o version alternativa    </span>__    
+ __<span style="color: green;">➤ Creamos una rama  o version alternativa  (Ramitifacos el trabajo)  </span>__    
 ```sh
 #¿Qué es ramas?
       Es una linea de tiempo en nuestro proyecto, que nos sirven para arreglar errores, 
@@ -258,7 +258,7 @@ git log --oneline --decorate       # Sirve para ver los nombres de los punteros 
 git diff b43ec03 3ebe8bd           # Diferencia de los commit con el otro commit  
 git diff HEAD~1 HEAD               # Comparar el ultimo commit con la anterior
 
-#REVERTIR UN COMMIT 
+#REVERTIR UN COMMIT PERO NO SIGUES TRABAJANDO EN EL STATE AREA | LO GUARDA DIRECTO
   #- Descartar los cambios que se hicieron en un commit , pero te agrega otro commit nuevo 
   # ejemplo del commit que se crea solo --->  Revert "Mensaje"
       git revert HEAD      <-- Descarta el ultimo commit pero te agrega un commit nuevo | no elimina el commit anterior
@@ -271,14 +271,19 @@ git diff HEAD~1 HEAD               # Comparar el ultimo commit con la anterior
       ba766fb MODIFICANDO OTRA VEZ
       
 
-#REVERTIR UN COMMIT  
+#REVERTIR UN COMMIT - Y SEGUIR TRABAJANDO HASTA NO GUARDARLO EN EL STATE AREA (archivos verde)
+  # Recomendado usar si hacemos en 2 commit los revert
   #- Descarta o vuelve lo anterior del commit pero, No borra el commit que hiciste, pero lo pone en state area, para que sigas trabajando
   # (Siempre el ultimo commit), eso quiere decir que volvera  a como era el commit anterior
       git revert --no-commit HEAD 
+  # Guardar cambios 
       git status
       git revert --continue 
-  # Volver a la normalidad, claro si no lo guardaste
-      git reset --hard  git status
+      
+      
+  # Volver a la normalidad, claro si no lo guardaste, si hay conflicto
+      git reset --hard  
+      git status
 
 ``` 
 
