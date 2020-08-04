@@ -174,7 +174,38 @@ __<span style="color: green;">➤ Ordenar datos ASCENDENTE o DESCENDENTE</span>_
 
 SELECT nombre,apellido FROM alumnos ORDER BY apelllidos DESC, nombre ASC;
 ``` 
+__<span style="color: green;">➤ FUNCION TRIM() </span>__    
+```sh
+# La función TRIM () de MySQL devuelve una cadena después de eliminar todos los prefijos o sufijos de la cadena dada.
 
+TRIM([{BOTH | LEADING | TRAILING} [remstr] FROM ] str)
+BOTH - Indica que se deben eliminar los prefijos de izquierda y derecha.
+LEADING - Indica que solo se deben eliminar los prefijos iniciales.
+TRAILING - Indica que solo se deben eliminar los prefijos finales.
+remstr -La cadena que se eliminará.
+str	 - La cadena real desde donde se eliminará remstr.
+
+
+# Ejemplo y resultado
+  SELECT TRIM(username) AS username FROM your_table
+  SELECT TRIM(' trim ');                                        # Resultado  (sin los espacios) : trim 
+  SELECT TRIM(LEADING 'leading' FROM 'leadingtext' );           # Resultado :  text
+  SELECT TRIM(TRAILING 'trailing' FROM 'texttrailing' );        # Resultado :  text
+  SELECT TRIM(BOTH 'leadtrail' FROM 'leadtrailtextleadtrail');  # Resultado :  text
+  SELECT RTRIM('   Sample   ');                                 # Resultado :  '   Sample'
+  SELECT LTRIM('   Sample   ');                                 # Resultado :  'Sample   '
+
+``` 
+
+
+
+
+__<span style="color: green;">➤ TRIGGER o DISPARADORES </span>__    
+```sh
+# Los triggers o disparadores de MySQL son usa serie de reglas predefinidas que están asociadas a una tabla.
+# Estas reglas permiten la ejecución de una serie de instrucciones cuando se producen ciertos eventos 
+# como pueden ser la inserción de un nuevo registro, la actualización o el borrado de los datos de una tabla.
+``` 
 
 __<span style="color: green;">➤ Funciones de agregados</span>__    
 ```sh
