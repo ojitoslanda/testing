@@ -1,3 +1,11 @@
+https://www.w3resource.com/mysql/mysql-functions-and-operators.php
+
+
+(Copiar todo) - Buena página
+https://www.w3resource.com/mysql/string-functions/mysql-left-function.php
+
+
+
  __<span style="color: green;">➤ PRIVILEGIOS DE USUARIOS  </span>__    
 ```sh
 https://stackoverrun.com/es/q/10052713 -> Flush privileges
@@ -116,6 +124,48 @@ SELECT * FROM pedidos WHERE provincia IN('Madrid','Barcelona','Sevilla');
 
 
 ``` 
+
+
+__<span style="color: green;"> ➤ CONVERSIÓN DE BASE NÚMERICA </span>__    
+```sh
+# Binario 
+ ➤ select precio_producto , BIN(precio_producto) from productos;
+
+
+# Sistema hexadecimal: Es el sistema de numeración posicional que tiene como base el 16
+   #  con el  fin de reducir grandes cadenas de números binarios en conjuntos de cuatro dígitos, que se pueden de esta forma comprender fácilmente.
+ ➤ select hex(157) 
+
+# Sistema Octal
+ ➤ select oct(8) 
+
+# Conversion  : Convierta un número del sistema base numérico 10 al sistema base numérico 2:
+ ➤ SELECT CONV(1111, 2, 10);
+``` 
+
+__<span style="color: green;"> ➤ CONVERSION DE CADENAS DE MINÚSCULA A MAYÚSCULA Y VICEVERSA </span>__    
+```sh
+     SELECT LOWER()         # Minuscula
+     SELECT LCASE()         # Minuscula
+     SELECT UPPER()         # Mayuscula
+     SELECT UCASE()         # Mayuscula
+     
+     # Ejemplo:
+     select nombre_producto , lower(nombre_producto) , upper(nombre_producto) , lcase(nombre_producto) , ucase(nombre_producto)  from productos;
+     select nombre_producto , UPPER(nombre_producto) from productos;
+``` 
+__<span style="color: green;"> ➤ EXTRANSION DE CADENAS  </span>__    
+```sh
+     https://www.w3resource.com/mysql/string-functions/mysql-left-function.php 
+     SELECT LEFT('',2)         # Las dos primeras letras de la izquierda
+     SELECT RIGHT('',2)        # Las dos primeras letras de la derecha
+     
+     # Ejemplo:
+     select nombre_producto , left(nombre_producto,2) , right(nombre_producto,2) from productos;
+     select nombre_producto , left(nombre_producto,2) from productos; 
+     select nombre_producto , right(nombre_producto,2) from productos; 
+``` 
+
 
 __<span style="color: green;">➤ Ordenar datos ASCENDENTE o DESCENDENTE</span>__    
 ```sh
