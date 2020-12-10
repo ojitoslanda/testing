@@ -11,7 +11,7 @@ https://www.w3resource.com/mysql/string-functions/mysql-left-function.php
 https://stackoverrun.com/es/q/10052713 -> Flush privileges
 # conectamos a mysql
 mysql -u root -p 
-mysql -u admin -p
+mysql -u gabriel -p    /clave: root
 
 #Creamos un usuario
 create user nameuser identified by 'passworduser'
