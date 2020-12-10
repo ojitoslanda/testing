@@ -1,3 +1,4 @@
 # Uso
 
 - JDowloader
+- Rufus
