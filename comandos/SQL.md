@@ -34,6 +34,7 @@ DELETE FROM mysql.user WHERE user = 'usuario';
 show databases;
 
 #Cómo listar todos los usuarios MySQL o MariaDB desde la consola
+use mysql;
 show tables;
 describe user;                        #obtener las columnas de la tabla
 select User from user;                #mostrar todos los usuarios MySQL con la consulta:
