@@ -15,11 +15,11 @@ mysql -u gabriel -p    /clave: root
 
 #Creamos un usuario
 create user nameuser identified by 'passworduser'
-grant all privileges on nametable.* to 'nameuser' with grant option
+grant all privileges on nametable.* to 'nameuser' with grant option       //Privilegio solo a una tabla
 flush privileges
 
 #DANDO PRIVILEGIOS Y CREANDO AL MISMO TIEMPO EL USUARIO
-grant all privileges on *.* to gabriel@localhost identified by 'admin' with grant option
+grant all privileges on *.* to gabriel@localhost identified by 'admin' with grant option    //Privilegio a todas las tablas
 flush privileges
 
 # Eliminamos a un usuario
