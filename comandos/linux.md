@@ -47,7 +47,9 @@ sudo dmidecode -t System | grep Product
 # Listar paquetes instalados
 # Para listar el total de paquetes instalados ejecutamos el siguiente comando.
    sudo dpkg --get-selections
-   
+ 
+# Listar archivos ocultos
+   ls -lFa
 # Para saber que programas están instalados escribimos en un terminal:
    dpkg --get-selections
    
