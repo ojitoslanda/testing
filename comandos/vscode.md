@@ -26,7 +26,9 @@ Archivo
 -Liveserver
 -Polacode
 -Auto Rename Tag
-
+- html tag wrapper
+- Highlight Matching tag
+- 
 #Extensiones o Plugins Extras 
 -Bookmarks
 -Bracket Pair Colorizer 2
