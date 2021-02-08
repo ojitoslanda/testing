@@ -1,7 +1,7 @@
 Como saber que versión de MySQL o MariaDB tengo instalada
 https://www.vozidea.com/como-saber-que-version-de-mysql-o-mariadb-tengo-instalada
 
-
+https://hazloexpress.com/mysql-operadores-comparacion/ 
 
 https://www.w3resource.com/mysql/mysql-functions-and-operators.php
 
