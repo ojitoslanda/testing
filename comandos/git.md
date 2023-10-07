@@ -58,6 +58,7 @@ git add .
 git commit -m "mensaje"
 git status
 git log
+------------
 git checkout -- .     #Recuperar mis archivos  o carpetas borrachos, con el ultimo commit creado
 
 # esto sirve para mandar y tambien crear tus archivos local a github directo          
