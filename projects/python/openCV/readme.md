@@ -10,5 +10,5 @@ Luego Descargarmos el documento: haarcascade_frontalcatface_extended.xml
 
   
 Haarcascades detección de vehículos:
-https://github.com/andrewssobral/vehicle_detection_haarcascades
+https://github.com/andrewssobral/vehicle_detection_haarcascades <br/>
 Luego descargarmos cars.xml
