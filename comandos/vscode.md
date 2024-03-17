@@ -28,7 +28,8 @@ Archivo
 -Auto Rename Tag
 - html tag wrapper
 - Highlight Matching tag
-- 
+- Auto Close Tag
+
 #Extensiones o Plugins Extras 
 -Bookmarks
 -Bracket Pair Colorizer 2
