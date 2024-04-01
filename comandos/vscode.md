@@ -29,6 +29,7 @@ Archivo
 - html tag wrapper
 - Highlight Matching tag
 - Auto Close Tag
+- Open in Browser
 
 #Extensiones o Plugins Extras 
 -Bookmarks
