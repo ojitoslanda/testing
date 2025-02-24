@@ -372,7 +372,7 @@ git diff HEAD~1 HEAD               # Comparar el ultimo commit con la anterior
             
  <strong>  ➤ Subir cambios o traer los cambios de mis compañeros de trabajo </strong> 
 
-            git pull origin master -r    
+            git pull --rebase origin dev  
             git pull
             git pull origin larama
 
